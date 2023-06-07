@@ -4,7 +4,7 @@ import CoverageAreaTableTop from "./CoverageAreaTableTop";
 const CoverageArea = () => {
     return (
         <section>
-            <div className="container mx-auto px-24 md:px-10 sm:px-5">
+            <div className="container mx-auto px-24 md:px-10 sm:px-5 pb-[120px] sm:pb-[56px] md:pb-[90px]">
                 <CoverageAreaTableTop />
                 <div className="relative overflow-x-auto rounded-lg border sm:rounded-lg">
                     <table className="w-full text-sm text-left text-gray-500 ">

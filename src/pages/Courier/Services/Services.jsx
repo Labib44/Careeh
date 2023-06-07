@@ -32,10 +32,10 @@ const Services = () => {
     ];
 
     return (
-        <section className="container mx-auto px-24 md:px-10 sm:px-5 pb-[70px] pt-[120px]">
-            <div className="grid grid-cols-4 gap-3">
+        <section className="container mx-auto px-24 md:px-10 sm:px-5 pb-[70px] pt-[120px] md:pt-[90px] sm:pt-[56px] sm:pb-[56]">
+            <div className="grid grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 ">
                 {serviceData?.map((sd) => (
-                    <div key={sd.id} className="flex items-center flex-col">
+                    <div key={sd.id} className="flex items-center flex-col mb-8">
                         {sd.icon}
                         <div className="pt-6">
                             <h5 className="font-bold text-center pb-[10px] text-md text-black">

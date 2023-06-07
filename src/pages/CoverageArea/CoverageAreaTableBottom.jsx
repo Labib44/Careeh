@@ -7,7 +7,7 @@ const CoverageAreaTableBottom = () => {
                 <li>
                     <Link
                         to="/coverage-area"
-                        className="block px-3 py-2 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg hover:bg-gray-100 hover:text-primary "
+                        className="block px-3 mt-[1px] py-2 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg hover:bg-gray-100 hover:text-primary "
                     >
                         <span className="sr-only">Previous</span>
                         <svg
@@ -28,7 +28,7 @@ const CoverageAreaTableBottom = () => {
                 <li>
                     <Link
                         to="/coverage-area"
-                        className="px-2 py-1 leading-tight text-gray-500 bg-white   hover:text-primary"
+                        className="px-2 py-1 text-sm leading-tight text-gray-500 bg-white   hover:text-primary"
                     >
                         1
                     </Link>
@@ -37,7 +37,7 @@ const CoverageAreaTableBottom = () => {
                     <Link
                         to="/coverage-area"
                         aria-current="page"
-                        className="z-10 px-1 leading-tight text-black border border-primary  hover:bg-primary/10 hover:text-primary"
+                        className="z-10 px-1 text-sm leading-tight text-black border border-primary  hover:bg-primary/10 hover:text-primary"
                     >
                         2
                     </Link>
@@ -45,7 +45,7 @@ const CoverageAreaTableBottom = () => {
                 <li>
                     <Link
                         to="/coverage-area"
-                        className="px-2 py-1 leading-tight text-gray-500 bg-white   hover:text-primary"
+                        className="px-2 py-1 text-sm leading-tight text-gray-500 bg-white   hover:text-primary"
                     >
                         3
                     </Link>
@@ -61,7 +61,7 @@ const CoverageAreaTableBottom = () => {
                 <li>
                     <Link
                         to="/coverage-area"
-                        className="px-2 py-1 leading-tight text-gray-500 bg-white   hover:text-primary"
+                        className="px-2 py-1 text-sm leading-tight text-gray-500 bg-white   hover:text-primary"
                     >
                         100
                     </Link>

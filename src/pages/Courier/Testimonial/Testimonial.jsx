@@ -22,19 +22,19 @@ const Testimonial = () => {
     ];
 
     return (
-        <section className="pb-[110px]">
+        <section className="pb-[110px] md:pb-[90px] sm:pb-[56]">
             <div className="container mx-auto px-24 md:px-10 sm:px-5">
                 <div className="mb-8">
-                    <h2 className="text-[40px] font-bold text-center">
+                    <h2 className="text-[40px] sm:text-[28px] font-bold text-center">
                         আমাদের কাস্টমার টেস্টিমনিয়াল
                     </h2>
                 </div>
                 <div>
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
                         {testimonialData?.map((td) => (
                             <div
                                 key={td.id}
-                                className="flex flex-col items-center min-h-[200px] justify-evenly bg-[#f5f5f5] p-5 rounded-md"
+                                className="flex flex-col items-center min-h-[200px] justify-evenly bg-[#f5f5f5] p-5 rounded-md sm:mb-3"
                             >
                                 <div className="mb-6">
                                     <FaQuoteLeft className="text-primary text-4xl" />
