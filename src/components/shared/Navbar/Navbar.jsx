@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isMobileMenu, setIsMobileMenu] = useState(false);
 
     return (
-        <header className="bg-transparent top-0 fixed z-50 w-full">
+        <header className="bg-transparent  z-50 w-full">
             <nav className="container mx-auto relative">
                 <div className="flex flex-wrap items-center justify-between py-8 ">
                     {/* Navbar Left */}
