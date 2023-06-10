@@ -1,9 +1,9 @@
-import ajkerdeal from "../../../assets/brands/ajkerdeal-color.png";
-import bata from "../../../assets/brands/bata-color.png";
-import loto from "../../../assets/brands/lotto-color.png";
-import othoba from "../../../assets/brands/othoba-color.png";
-import rangs from "../../../assets/brands/rangs-group-color.png";
-import daraz from "../../../assets/brands/daraz-color.png";
+import ajkerdeal from "../../../assets/home/brands/ajkerdeal-color.png";
+import bata from "../../../assets/home/brands/bata-color.png";
+import loto from "../../../assets/home/brands/lotto-color.png";
+import othoba from "../../../assets/home/brands/othoba-color.png";
+import rangs from "../../../assets/home/brands/rangs-group-color.png";
+import daraz from "../../../assets/home/brands/daraz-color.png";
 
 const Brands = () => {
   const topEnterprices = [

@@ -1,11 +1,11 @@
-import bulkShipment from "../../../assets/service/bulk-shipment.webp";
-import parcelDelivery from "../../../assets/service/parcel-delivery.webp";
-import lineHaul from "../../../assets/service/line-haul.webp";
-import wareHouse from "../../../assets/service/warehouse.webp";
-import truckRent from "../../../assets/service/truck-rent.webp";
-import loadUnload from "../../../assets/service/load-unload.webp";
-import logisticeService from "../../../assets/service/logistics-service.webp";
-import customiseSolutions from "../../../assets/service/customised-solutions.webp";
+import bulkShipment from "../../../assets/home/service/bulk-shipment.webp";
+import parcelDelivery from "../../../assets/home/service/parcel-delivery.webp";
+import lineHaul from "../../../assets/home/service/line-haul.webp";
+import wareHouse from "../../../assets/home/service/warehouse.webp";
+import truckRent from "../../../assets/home/service/truck-rent.webp";
+import loadUnload from "../../../assets/home/service/load-unload.webp";
+import logisticeService from "../../../assets/home/service/logistics-service.webp";
+import customiseSolutions from "../../../assets/home/service/customised-solutions.webp";
 const Service = () => {
   const services = [
     {
