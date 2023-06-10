@@ -1,8 +1,9 @@
-import flag from "../../../assets/video/bangladesh.png";
+/* import flag from "../../../assets/video/bangladesh.png";
+import "./Banner.css";
 const Banner = () => {
   return (
     <div>
-      <div className="w-full flex items-center justify-center h-[565px]">
+      <div className="w-full flex items-center justify-center h-[565px] custom-overlay">
         <video autoPlay loop muted>
           <source
             src="https://d118vismjsp9sl.cloudfront.net/web2.0/video/hero-video-3.webm"
@@ -11,9 +12,12 @@ const Banner = () => {
         </video>
         <div className="absolute w-full h-full top-0 grid grid-cols-12 items-center justify-center">
           <div className="pl-20 col-span-8">
-            <h1 className="text-white">hello</h1>
+            <h1 className="text-white text-[54px] font-bold">
+              দেশজুড়ে সবচেয়ে দ্রুত লজিস্টিকস সল্যুশন <br />
+              <span className="text-primary">৩ ঘণ্টায় ট্রাক ভাড়া</span>
+            </h1>
           </div>
-          <div className="bg-secondary min-h-screen col-span-4 py-24 px-10 rounded-b-xl">
+          <div className="bg-secondary min-h-screen col-span-4 py-24 px-10 rounded-b-xl top-0 absolute">
             <form>
               <h3 className="text-white text-center text-sm">
                 বিনামুল্যে সাইন-আপ করুন মাত্র দুই মিনিটে
@@ -67,3 +71,4 @@ const Banner = () => {
 };
 
 export default Banner;
+ */
