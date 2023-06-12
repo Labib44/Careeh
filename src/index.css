@@ -4,3 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .container {
+        max-width: 1230px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.swiper-pagination-bullet-active{
+    background: #ED1C24;
+}
