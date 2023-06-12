@@ -3,22 +3,25 @@ import { Link } from "react-router-dom";
 import CustomButton from "../CustomButton/CustomButton";
 import NavItems from "./NavItems/NavItems";
 import MobileMenu from "./MobileMenu/MobileMenu";
-import Logo from "../../../assets/logo/logo";
+
+import { FaPhoneAlt } from "react-icons/fa";
+import { CiGlobe } from "react-icons/ci";
+import logo from '../../../assets/home/new-redx-logo.svg'
 
 const Navbar = () => {
     const [isMobileMenu, setIsMobileMenu] = useState(false);
 
     return (
-        <header className="bg-transparent  z-50 w-full">
+        <header className="bg-white  z-50 w-full">
             <nav className="container mx-auto relative">
-                <div className="flex flex-wrap items-center justify-between py-8 ">
+                <div className="flex flex-wrap items-center justify-between  ">
                     {/* Navbar Left */}
                     <div className="flex items-center">
                         <Link
                             href="/"
                             className="flex items-center text-4xl font-extrabold text-black"
                         >
-                            <Logo />
+                            <img src={logo} className="p-5" alt=""/>
                         </Link>
 
                         {/* Navbar Center */}
@@ -30,14 +33,23 @@ const Navbar = () => {
                     </div>
                     {/* Navbar Right */}
                     <div className="flex">
-                        <Link to={"/dashboard/all-products"}>
+
+                        <div className=' flex items-center mx-5'>
+                            <FaPhoneAlt className='text-primary w-6 h-6 mx-2 pt-1' /> <p className='text-primary'><span className=" text-secondary">কল করুন</span> ০৯৬১০০০৭৩৩৯</p>
+                        </div>
+
+                        <Link to={"/"}>
                             <CustomButton
-                                buttonName={"Dashboard"}
+                                buttonName={"লগ ইন"}
                                 cssStyle={
-                                    "hover:bg-primary hover:text-white px-3 py-[14px] text-gray-800 md:hidden sm:hidden mr-2 md:mr-0 sm:mr-0"
+                                    " px-10 py-3 text-primary hover:bg-red-100 font-bold outline outline-4 hover:outline-2 md:hidden sm:hidden mr-2 md:mr-0 sm:mr-0"
                                 }
                             />
                         </Link>
+                        
+                        <div className=' flex items-center border-l-4 border-r-4 mx-5 px-5 '>
+                            <CiGlobe className='text-gray-400 w-10 h-10 pt-1'/><p className=' text-secondary text-xl'>EN</p>
+                        </div>
 
                         <button
                             type="button"

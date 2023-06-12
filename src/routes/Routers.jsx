@@ -3,6 +3,9 @@ import MainLayout from "../layouts/MainLayout/MainLayout";
 import Home from "../pages/Home/Home";
 import Courier from "../pages/Courier/Courier";
 import CoverageArea from "../pages/CoverageArea/CoverageArea";
+import Enterprise from "../pages/Enterprise/Enterprise";
+
+
 
 /* All of Routers */
 const routers = createBrowserRouter([
@@ -13,6 +16,10 @@ const routers = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />,
+            },
+            {
+                path: "/enterprise",
+                element: <Enterprise/>,
             },
             {
                 path: "/courier",
