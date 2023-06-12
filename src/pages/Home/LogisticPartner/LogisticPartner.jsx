@@ -42,11 +42,11 @@ const LogisticPartner = () => {
     },
   ];
   return (
-    <div>
+    <div className="container mx-auto">
       <h2 className="font-bold text-[40px] text-center my-12">
         আপনার লজিস্টিক পার্টনার হিসেবে REDX বেছে নিন
       </h2>
-      <div className="grid grid-cols-3 justify-items-center gap-12 p-8">
+      <div className="grid sm:grid-cols-1 grid-cols-3 justify-items-center gap-12 p-8">
         {logistics.map((element) => (
           <div
             className="flex flex-col items-center text-center"

@@ -55,7 +55,7 @@ const Service = () => {
     },
   ];
   return (
-    <div>
+    <div className="container mx-auto">
       <h2 className="font-bold text-[40px] text-center my-12">সার্ভিস সমূহ</h2>
       <div className="sm:grid-cols-1 md:grid-cols-3 grid grid-cols-4 gap-10">
         {services.map((servic) => (

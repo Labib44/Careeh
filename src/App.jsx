@@ -2,6 +2,7 @@
 import { RouterProvider } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import routers from "./routes/Routers";
+import "swiper/css";
 // import AOS from "aos";
 // import Preloader from './components/ui/Loader/Preloader';
 
