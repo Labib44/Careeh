@@ -4,3 +4,9 @@
     height: 700px;
     background-size: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    .bannerImg {
+        height: 400px;
+    }
+  }

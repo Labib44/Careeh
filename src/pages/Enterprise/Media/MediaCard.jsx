@@ -6,7 +6,7 @@ const MediaCard = ({ medData }) => {
         <div className=" rounded-md outline outline-2 outline-gray-200">
 
             <div className="px-5 pt-5">
-                <img src={logo} className="w-[350px] h-[60px]" alt="" />
+                <img src={logo} className="w-[350px] h-[75px]" alt="" />
             </div>
 
             <div className="mx-5 mb-5">

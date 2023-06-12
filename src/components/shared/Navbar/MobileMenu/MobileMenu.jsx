@@ -14,29 +14,22 @@ const MobileMenu = ({ setIsMobileMenu, isMobileMenu }) => {
                 isMobileMenu={isMobileMenu}
             />
             <NavItem
-                pathName={"/about-us"}
+                pathName={"/enterprise"}
                 activePathName={activePathName}
-                navItemName={"About Us"}
+                navItemName={"এন্টারপ্রাইজ"}
                 isMobile
                 setIsMobileMenu={setIsMobileMenu}
                 isMobileMenu={isMobileMenu}
             />
             <NavItem
-                pathName={"/blogs"}
+                pathName={"/courier"}
                 activePathName={activePathName}
-                navItemName={"Blogs"}
+                navItemName={"কুরিয়ার"}
                 isMobile
                 setIsMobileMenu={setIsMobileMenu}
                 isMobileMenu={isMobileMenu}
             />
-             <NavItem
-                pathName={"/contact"}
-                activePathName={activePathName}
-                navItemName={"Contact"}
-                isMobile
-                setIsMobileMenu={setIsMobileMenu}
-                isMobileMenu={isMobileMenu}
-            />
+           
         </>
     );
 };

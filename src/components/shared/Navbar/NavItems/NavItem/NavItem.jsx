@@ -17,9 +17,9 @@ const NavItem = ({
                 to={pathName}
                 className={`relative hover:bg-transparent ${
                     activePathName === pathName
-                        ? "text-primary"
-                        : "text-white"
-                }  transition-all active:bg-transparent focus:bg-transparent hover:text-primary text-sm font-medium `}
+                        ? "text-gray-400"
+                        : "text-secoundry"
+                }  transition-all ml-5 hover:border-b-4 border-red-600 p-5 font-medium `}
             >
                 {navItemName}
             </Link>

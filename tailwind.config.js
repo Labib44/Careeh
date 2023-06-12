@@ -18,7 +18,8 @@ export default {
                 neutral: "#515151",
             },
             backgroundImage:{
-                "business-banner": "url('/src/assets/business/banner_business.jpg')"
+                "business-banner": "url('/src/assets/business/banner_business.jpg')",
+                "courier-banner":"url('/src/assets/courier/banner.jpg')"
             }
         },
     },
