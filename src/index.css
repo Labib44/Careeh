@@ -22,3 +22,6 @@ body {
 .swiper-pagination-bullet-active{
     background: #ED1C24;
 }
+.banner-section .swiper-slide{
+background-color: transparent !important;
+}

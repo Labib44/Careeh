@@ -105,13 +105,18 @@ const CustomerReviews = () => {
               <div className="flex justify-end">
                 <p className="bg-slate-300 p-1 text-sm">{review.badge}</p>
               </div>
-              <img src={quote} alt="quote" />
+              <img
+                src={quote}
+                alt="quote"
+                style={{ width: "35px", height: "auto" }}
+              />
               <p className="my-5">{review.feedback}</p>
               <div className="flex gap-5">
                 <img
                   className="h-14 w-14"
                   src={review.clientPhoto}
                   alt="customer-photo"
+                  style={{ width: "56px", height: "56px" }}
                 />
                 <div>
                   <h4 className="font-bold">{review.name}</h4>

@@ -44,6 +44,7 @@ const Slider = () => {
         autoplay={{
           delay: 2000,
         }}
+        className="banner-section"
       >
         {sliders.map((slider) => (
           <SwiperSlide key={slider.title}>{slider.title}</SwiperSlide>
