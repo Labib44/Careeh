@@ -6,6 +6,8 @@ import LogisticService from "./LogisticService/LogisticService";
 import CustomerReviews from "./CustomerReviews/CustomerReviews";
 import Faq from "./Faq/Faq";
 import Banner from "./Banner/Banner";
+import Media from "../Enterprise/Media/Media";
+import Partner from "../Enterprise/Partner/Partner";
 
 const Home = () => {
   useEffect(() => {
@@ -21,6 +23,8 @@ const Home = () => {
       <LogisticService />
       <CustomerReviews />
       <Faq />
+      <Partner />
+      <Media />
     </div>
   );
 };

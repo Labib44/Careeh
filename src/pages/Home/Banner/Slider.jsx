@@ -6,32 +6,32 @@ const Slider = () => {
     {
       title: (
         <h2 className="text-[54px] font-bold text-white">
-          দেশজুড়ে সবচেয়ে বেশি ওয়্যারহাউস স্পেস
-          <br /> <span className="text-primary">৩.৫ লাখ+ স্কয়ার ফিট</span>
+          Nationwide largest warehouse space
+          <br /> <span className="text-primary">3.5 lac+ square feet</span>
         </h2>
       ),
     },
     {
       title: (
         <h2 className="text-[54px] font-bold text-white">
-          দেশজুড়ে সবচেয়ে বেশি রাইডার
-          <br /> <span className="text-primary">৩৫০০+ ফ্রন্টলাইনার</span>
+          Nationwide highest delivery riders
+          <br /> <span className="text-primary">3500+ frontline</span>
         </h2>
       ),
     },
     {
       title: (
         <h2 className="text-[54px] font-bold text-white">
-          দেশজুড়ে সবচেয়ে বড় লজিস্টিকস নেটওয়ার্ক
-          <br /> <span className="text-primary">৬৪ জেলায় এবং ৪৯৩ থানায়</span>
+          Nationwide largest logistics network
+          <br /> <span className="text-primary">1192 areas covered</span>
         </h2>
       ),
     },
     {
       title: (
         <h2 className="text-[54px] font-bold text-white">
-          দেশজুড়ে সবচেয়ে দ্রুত লজিস্টিকস সল্যুশন
-          <br /> <span className="text-primary">৩ ঘণ্টায় ট্রাক ভাড়া</span>
+          Nationwide fastest logistics solutions
+          <br /> <span className="text-primary">Rent truck in 3 hours</span>
         </h2>
       ),
     },
@@ -42,8 +42,9 @@ const Slider = () => {
     <div>
       <Swiper
         autoplay={{
-          delay: 2000,
+          delay: 6000,
         }}
+        className="banner-section"
       >
         {sliders.map((slider) => (
           <SwiperSlide key={slider.title}>{slider.title}</SwiperSlide>

@@ -14,57 +14,57 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "সেনা লুব্রিক্যান্টের ডেলিভারির জন্য আমরা সবসময়ই রেডএক্স ব্যবহার করি। রেডএক্স কার্গো টিম এর সাপোর্ট এবং লাইভ ট্র্যাকিং সিস্টেম শিপমেন্টকে আরো সহজ করে।",
+        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client1,
-      name: "রুবাবা আক্তার",
-      title: "সেলাই",
+      name: "Shunno Ayon",
+      title: "Dighal",
     },
     {
       badge: "Enterprises",
       feedback:
-        "সেনা লুব্রিক্যান্টের ডেলিভারির জন্য আমরা সবসময়ই রেডএক্স ব্যবহার করি। রেডএক্স কার্গো টিম এর সাপোর্ট এবং লাইভ ট্র্যাকিং সিস্টেম শিপমেন্টকে আরো সহজ করে।",
+        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client2,
-      name: "রুবাবা আক্তার",
-      title: "সেলাই",
+      name: "Shunno Ayon",
+      title: "Dighal",
     },
     {
       badge: "Enterprises",
       feedback:
-        "সেনা লুব্রিক্যান্টের ডেলিভারির জন্য আমরা সবসময়ই রেডএক্স ব্যবহার করি। রেডএক্স কার্গো টিম এর সাপোর্ট এবং লাইভ ট্র্যাকিং সিস্টেম শিপমেন্টকে আরো সহজ করে।",
+        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client3,
-      name: "রুবাবা আক্তার",
-      title: "সেলাই",
+      name: "Shunno Ayon",
+      title: "Dighal",
     },
     {
       badge: "Enterprises",
       feedback:
-        "সেনা লুব্রিক্যান্টের ডেলিভারির জন্য আমরা সবসময়ই রেডএক্স ব্যবহার করি। রেডএক্স কার্গো টিম এর সাপোর্ট এবং লাইভ ট্র্যাকিং সিস্টেম শিপমেন্টকে আরো সহজ করে।",
+        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client4,
-      name: "রুবাবা আক্তার",
-      title: "সেলাই",
+      name: "Shunno Ayon",
+      title: "Dighal",
     },
     {
       badge: "Enterprises",
       feedback:
-        "সেনা লুব্রিক্যান্টের ডেলিভারির জন্য আমরা সবসময়ই রেডএক্স ব্যবহার করি। রেডএক্স কার্গো টিম এর সাপোর্ট এবং লাইভ ট্র্যাকিং সিস্টেম শিপমেন্টকে আরো সহজ করে।",
+        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client5,
-      name: "রুবাবা আক্তার",
-      title: "সেলাই",
+      name: "Shunno Ayon",
+      title: "Dighal",
     },
     {
       badge: "Enterprises",
       feedback:
-        "সেনা লুব্রিক্যান্টের ডেলিভারির জন্য আমরা সবসময়ই রেডএক্স ব্যবহার করি। রেডএক্স কার্গো টিম এর সাপোর্ট এবং লাইভ ট্র্যাকিং সিস্টেম শিপমেন্টকে আরো সহজ করে।",
+        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client6,
-      name: "রুবাবা আক্তার",
-      title: "সেলাই",
+      name: "Shunno Ayon",
+      title: "Dighal",
     },
   ];
   SwiperCore.use([Autoplay]);
   return (
     <div className="px-5">
       <h2 className="font-bold text-center my-12 text-[40px]">
-        রেডএক্সের প্রতি গ্রাহকদের ভালোবাসা
+        Clients love REDX
       </h2>
       <Swiper
         slidesPerView={4}
@@ -105,13 +105,18 @@ const CustomerReviews = () => {
               <div className="flex justify-end">
                 <p className="bg-slate-300 p-1 text-sm">{review.badge}</p>
               </div>
-              <img src={quote} alt="quote" />
+              <img
+                src={quote}
+                alt="quote"
+                style={{ width: "35px", height: "auto" }}
+              />
               <p className="my-5">{review.feedback}</p>
               <div className="flex gap-5">
                 <img
                   className="h-14 w-14"
                   src={review.clientPhoto}
                   alt="customer-photo"
+                  style={{ width: "56px", height: "56px" }}
                 />
                 <div>
                   <h4 className="font-bold">{review.name}</h4>
