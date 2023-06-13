@@ -5,6 +5,7 @@ import LogisticPartner from "./LogisticPartner/LogisticPartner";
 import LogisticService from "./LogisticService/LogisticService";
 import CustomerReviews from "./CustomerReviews/CustomerReviews";
 import Faq from "./Faq/Faq";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
   useEffect(() => {
@@ -13,6 +14,7 @@ const Home = () => {
 
   return (
     <div>
+      <Banner />
       <Brands />
       <Service />
       <LogisticPartner />
