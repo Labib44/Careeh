@@ -17,7 +17,7 @@ const Brands = () => {
     { brandImg: othoba },
   ];
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pt-12">
       <div className="grid sm:grid-cols-1 md:grid-cols-1 grid-cols-2 sm:gap-12 gap-5 md:justify-items-center items-center">
         <div>
           <h2 className="hidden sm:block text-center">TOP ENTERPRISES</h2>
