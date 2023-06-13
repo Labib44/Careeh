@@ -9,54 +9,57 @@ import customiseSolutions from "../../../assets/home/service/customised-solution
 const Service = () => {
   const services = [
     {
-      title: "পার্সেল ডেলিভারি",
+      title: "Parcel Delivery",
       shortDes:
-        "ব্যক্তিগত, ছোট ব্যবসা এবং কর্পোরেটদের জন্য ফার্স্ট-মাইল পিকআপ এবং লাস্ট মাইল ডেলিভারি সেবা",
+        "First-mile pickup, last-mile delivery services for individuals (C2C), small businesses (B2C) and corporates (B2B)",
       image: parcelDelivery,
     },
     {
-      title: "বাল্ক শিপমেন্ট",
-      shortDes: "বড় আইটেম এবং বড় সংখ্যক ডেলিভারির বিশেষ সমাধান",
+      title: "Bulk Shipment",
+      shortDes: "Specialized solutions for large items and large numbers",
       image: bulkShipment,
     },
     {
-      title: "লাইন হল",
+      title: "Line Haul",
       shortDes:
-        "এফটিএল (পুরো ট্রাকলোড) ও এলটিএল (আংশিক ট্রাকলোড) সহ মালামাল পরিবহনের সকল সমাধান",
+        "Freight movement solutions including FTL (full truckload), LTL (less than truckload)",
       image: lineHaul,
     },
     {
-      title: "ওয়্যারহাউজ",
-      shortDes: "সংরক্ষন, বাছাই এবং প্রক্রিয়াজাতকরণের পরিপূর্ণ সমাধান",
+      title: "Warehouse",
+      shortDes:
+        "Complete fulfillment solutions including storing, sorting, processing",
       image: wareHouse,
     },
     {
-      title: "ট্রাক ভাড়া",
+      title: "Truck Rent",
       shortDes:
-        "খোলা ট্রাক এবং কাভার্ড ভ্যান দেশের যে কোন জায়গায় যে কোন সময়",
+        "Open trucks and covered vans for rent any size, anywhere in BD",
       image: truckRent,
     },
     {
-      title: "লোড-আনলোড",
+      title: "Load/Unload",
       shortDes:
-        "ইন্ডাস্ট্রি-অনুযায়ী ফ্যাক্টরি, প্রজেক্ট এবং বন্দরগুলোতে লোডিং-আনলোডিংয়ের সুবিধা",
+        "Industry-specific loading/unloading services in factories, project sites, and ports",
       image: loadUnload,
     },
     {
-      title: "লজিস্টিকস সেবা",
+      title: "Logistics as a service",
       shortDes:
-        "লজিস্টিকস সংক্রান্ত যে কোন সমস্যার সমাধানে অভিজ্ঞ টিমের সহায়তা",
+        "Outsource logistics requirements, get a dedicated team for your company",
       image: logisticeService,
     },
     {
-      title: "কাস্টমাইজ সমাধান",
-      shortDes: "আপনার ব্যবসায়িক ধরনের প্রয়োজন বুঝে কাস্টমাইজড সল্যুশন",
+      title: "Customized Solutions",
+      shortDes: "Tailor made solutions for your unique business needs",
       image: customiseSolutions,
     },
   ];
   return (
     <div className="container mx-auto">
-      <h2 className="font-bold text-[40px] text-center my-12">সার্ভিস সমূহ</h2>
+      <h2 className="font-bold text-[40px] text-center mt-14">
+        We provide services that you can rely on
+      </h2>
       <div className="sm:grid-cols-1 md:grid-cols-3 grid grid-cols-4 gap-10">
         {services.map((servic) => (
           <div key={servic.title}>

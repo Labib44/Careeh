@@ -16,7 +16,7 @@ const Banner = () => {
           <div className="col-span-8 px-12">
             <Slider />
           </div>
-          <div className="bg-black h-full sm:h-[82%] -mt-0 col-span-4 p-10">
+          <div className="bg-black h-full sm:h-[82%] col-span-4 p-10">
             <Form />
           </div>
         </div>

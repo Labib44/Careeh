@@ -8,43 +8,44 @@ import secureHandling from "../../../assets/home/logistic-partner/secure-handlin
 const LogisticPartner = () => {
   const logistics = [
     {
-      title: "৩ দিনে ডেলিভারি গ্যারান্টিড",
+      title: "Industry-leading tech",
       description:
-        "মাত্র ৩ দিনে বাংলাদেশের যেকোনো প্রান্তে পার্সেল ডেলিভারির নিশ্চয়তা",
+        "With a brilliant team of engineers driving everything we do, REDX offers the best possible service experience powered by superior technology",
       icon: fastDelivery,
     },
     {
-      title: "ডোরস্টেপ পিকআপ ও ডেলিভারি",
+      title: "Nationwide coverage",
       description:
-        "আপনার দরজা থেকে কাঙ্ক্ষিত গন্তব্যে পার্সেল পৌঁছে যাবে নির্বিঘ্নে",
+        "REDX offers the widest logistics network, covering 64 districts and 490+ sub districts across Bangladesh",
       icon: dropPickupDelivery,
     },
     {
-      title: "এসএমএস আপডেট",
+      title: "Fastest solutions",
       description:
-        "পার্সেল বুকিং এবং ডেলিভারির সময় পাবেন আপনার নিবন্ধিত মোবাইল নম্বরে এসএমএস আপডেট",
+        "Backed by an agile team and dynamic operations, we promise to find the fastest solutions for your needs",
       icon: smsUpdate,
     },
     {
-      title: "পরের দিনই পেমেন্ট",
-      description: "ডেলিভারি সম্পূর্ণ হলে পরের দিনই পেমেন্ট পেয়ে যাবেন",
+      title: "Next day payment",
+      description:
+        "Once the delivery is complete you will receive payment the very next day.",
       icon: nextDayPayement,
     },
     {
-      title: "সেরা ক্যাশ অন ডেলিভারি রেট",
-      description: "ঢাকার ভিতর ক্যাশ অন ডেলিভারি চার্জ ০%, ঢাকার বাইরে ১%",
+      title: "Best COD rates",
+      description: "COD charge inside Dhaka 0%, outside Dhaka 1%.",
       icon: bestRates,
     },
     {
-      title: "সিকিউর হ্যান্ডলিং",
-      description: "সর্বোচ্চ নিরাপদে শিপমেন্টের নিশ্চয়তা ও ক্ষতিপূরণ সুবিধা",
+      title: "Secure handling",
+      description: "Compensation policy guarantees safety of your shipment",
       icon: secureHandling,
     },
   ];
   return (
     <div className="container mx-auto">
       <h2 className="font-bold text-[40px] text-center my-12">
-        আপনার লজিস্টিক পার্টনার হিসেবে REDX বেছে নিন
+        Choose REDX as your logistics partner
       </h2>
       <div className="grid sm:grid-cols-1 grid-cols-3 justify-items-center gap-12 p-8">
         {logistics.map((element) => (

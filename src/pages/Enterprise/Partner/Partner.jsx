@@ -5,10 +5,10 @@ const Partner = () => {
         <div className="flex md:flex-wrap sm:flex-wrap items-center justify-between md:mx-5 sm:sm:mx-5">
           <div>
             <h2 className="text-center text-4xl md:text-3xl sm:text-xl tracking-tighter font-bold py-5 md:px-5 sm:px-5">
-              রেডএক্সের পার্টনার হোন আজই
+              Partner up with REDX today
             </h2>
-            <p className=" font-bold text-center md:px-5 sm:px-5">
-              সাইন-আপ করুন করুন মাত্র দুই মিনিটে
+            <p className=" font-bold md:px-5 sm:px-5">
+              Signing up takes only 2 mins
             </p>
           </div>
 
@@ -16,7 +16,7 @@ const Partner = () => {
             type="button"
             className="px-8 py-3 md:w-full sm:w-full md:p-5 sm:p-5 md:mx-10 sm:mx-10 md:mt-3 sm:mt-3 font-semibold rounded bg-primary text-xl sm:text-sm hover:bg-red-500 md:mr-5"
           >
-            সাইন-আপ করুন
+            Sign up now
           </button>
         </div>
       </div>

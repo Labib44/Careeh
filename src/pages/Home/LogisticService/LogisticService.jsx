@@ -8,15 +8,15 @@ const LogisticService = () => {
         </div>
         <div className="text-white">
           <h2 className="text-[40px] font-bold">
-            রেডএক্সের লজিস্টিকস সেবা সারাদেশে ৬৪ জেলা এবং ৪৯৩ উপজেলা জুড়ে
-            বিস্তৃত
+            REDX provides logistics support in all 64 districts and 493 sub
+            districts across Bangladesh
           </h2>
           <p className="text-lg mt-6 mb-10">
-            আপনার যেকোনো লজিস্টিকস প্রয়োজনের জন্য আমরা নিশ্চিত করি দেশজুড়ে
-            সবচেয়ে দ্রুতগতির সেবা
+            Whatever your logistics need, we guarantee the fastest service all
+            over the country
           </p>
           <button className="bg-primary px-16 py-4 rounded-md">
-            কভারেজ এলাকা দেখুন
+            Check our coverage area
           </button>
         </div>
       </div>

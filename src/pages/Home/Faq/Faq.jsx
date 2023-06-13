@@ -6,27 +6,27 @@ const Faq = () => {
   const [id, setId] = useState(null);
   const questions = [
     {
-      question: "রেডএক্স কি?",
+      question: "What is REDX?",
       answer:
-        "রেডএক্স একটি প্রযুক্তিনির্ভর লজিস্টিকস কোম্পানি যা দেশজুড়ে এসএমই প্রোডাক্ট ডেলিভারি সেবা থেকে শুরু করে ব্যাক্তিগত ডকুমেন্ট, পার্সেল ডেলিভারি, এবং বড় কর্পোরেট কোম্পানিগুলোকে ইন্ডাস্ট্রিয়াল লজিস্টিকস সেবা প্রদান করে থাকে।",
+        "REDX is a tech-based logistics company operating nationwide and offering end-to-end services like parcel deliveries for SMEs, documents and parcel couriers for individuals and enterprise logistics solutions for corporate companies",
       id: 1,
     },
     {
-      question: "রেডএক্স কি কি ধরনের সেবা দিয়ে থাকে?",
+      question: "What kind of services does REDX offer?",
       answer:
-        "যে কোন ব্যবসা বা ব্যক্তিগত প্রয়োজনে ডেলিভারি সংক্রান্ত সেবা প্রদানের একটি পূর্ণাঙ্গ প্ল্যাটফর্ম রেডএক্স। পার্সেল ডেলিভারি, বাল্ক শিপমেন্ট, লাইন হল, ট্রাক ভাড়া, লোডিং-আনলোডিং, ওয়্যারহাউজ, সার্ভিস হিসেবে লজিস্টিকস সল্যুশন এবং প্রয়োজন অনুযায়ী কাস্টমাইজড সল্যুশনও দিয়ে থাকে রেডএক্স।",
+        "REDX is a complete platform for end-to-end delivery and logistics services for any business or personal needs. The services include parcel delivery, bulk shipment, line hall, truck rental, loading-unloading, warehouse, logistics services and customized solutions as required.",
       id: 2,
     },
     {
-      question: "রেডএক্স ডেলিভারির কভারেজ এরিয়া কি?",
+      question: "What is the coverage area of ​​REDX Delivery?",
       answer:
-        "রেডএক্স বাংলাদেশের ৬৪ টি জেলায় ডেলিভারি করে। আমাদের ডেলিভারি এরিয়া জানতে লিঙ্কে ক্লিক করুন https://redx.com.bd/coverage-area আপনার নিকটস্থ রেডএক্স হাবে যোগাযোগ করে আজই ডেলিভারি বুক করুন। রেডএক্স হাবের সম্পূর্ণ লিস্ট দেখতে এখানে ক্লিক করুন",
+        "REDX delivers to all 64 districts of Bangladesh. Click the link to see the full list of REDX delivery areas. Contact your nearest REDX Hub to book delivery today. Click here to see the full list of REDX Hubs.",
       id: 3,
     },
     {
-      question: "আপনাদের লজিস্টিকস চার্জ সম্পর্কে জানতে চাই?",
+      question: "Want to know about your delivery and logistics charges?",
       answer:
-        "মার্চেন্টদের পার্সেল ডেলিভারিতে আমরা প্রতি কেজি অনুযায়ী চার্জ করে থাকি l ঢাকার ভেতরে প্রতি কেজি ৬৯ টাকা, ঢাকার আশেপাশে ১১৫ এবং ঢাকার বাইরে ১৫০ টাকা থেকে চার্জ শুরু হয়। ঢাকার আশেপাশে এবং বাইরে প্রতি ডেলিভারিতে ১% ক্যাশ অন ডেলিভারি চার্জ প্রযোজ্য। প্রতিটি চার্জের সাথে ভ্যাট সংযুক্ত। ব্যক্তিগত পার্সেল পাঠানোর চার্জ সম্পর্কে জানতে আমাদের হোম ডেলিভারি এবং হাব ডেলিভারির প্রাইস চার্টটি দেখুন। এন্টারপ্রাইজ লজিস্টিকসের জন্য আমাদের দক্ষ সেলস টিম রয়েছে। ০৯৬১০০০৭৩৩৯ নাম্বারে কল দিয়ে এ সংক্রান্ত সকল তথ্য পাবেন।অনুগ্রহপূর্বক মনে রাখবেন ওজন এবং অবস্থানের ভিত্তিতে ডেলিভারি চার্জ পরিবর্তন হতে পারে l এ বিষয়ে আরও বিস্তারিত জানতে লিঙ্কে ক্লিক করুন এবং আমাদের প্রাইস সম্পর্কে আরো বিস্তারিত জানুন l",
+        "Our delivery charge is designed according to the weight of the parcel. Charges start from Tk 69 per kg inside Dhaka, Tk 115 around Dhaka and Tk 150 outside Dhaka. 1% cash on delivery charge is applicable for every delivery near and outside Dhaka.See our Home Delivery and Hub Delivery Price Chart for personal parcel shipping charges. For enterprise logistics, contact our sales team. You can also call at 0910006339 for more information.Please note that delivery charges may vary depending on weight and location. Click on the link to know more about this and learn more about our price",
       id: 4,
     },
   ];
@@ -38,9 +38,11 @@ const Faq = () => {
 
   return (
     <div className="w-[55%] sm:w-full mx-auto text-center my-[80px] static sm:container sm:mx-auto">
-      <h2 className="font-bold text-[40px]">আপনার সকল জিজ্ঞাসা</h2>
+      <h2 className="font-bold text-[40px]">
+        Still have questions? We have answers!
+      </h2>
       <p className="mb-10 mt-4">
-        সর্বাধিক জিজ্ঞাসিত প্রশ্নগুলি দেখুন, যেকোনো প্রয়োজনে আমরা আপনার পাশে আছি
+        Take a look at the most commonly asked questions. We are here to help.
       </p>
       <div>
         {questions.map((question) => (
