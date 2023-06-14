@@ -49,18 +49,6 @@ const LogoSlider = () => {
                 <SwiperSlide><img src={rangs} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={bengal} alt="" /></SwiperSlide>
                 <SwiperSlide><img src={sena} alt="" /></SwiperSlide>
-
-                <SwiperSlide><img src={bata} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={lotto} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={rangs} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={bengal} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={sena} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={bata} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={lotto} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={rangs} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={bengal} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={sena} alt="" /></SwiperSlide>
-
                 <div className="autoplay-progress hidden" slot="container-end">
                     <svg viewBox="0 0 48 48" ref={progressCircle}>
                         <circle cx="24" cy="24" r="20"></circle>
