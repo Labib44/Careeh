@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu/MobileMenu";
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { CiGlobe } from "react-icons/ci";
-import logo from "../../../assets/home/new-redx-logo.svg";
+import logo from "../../../assets/logo/CareehLogo.png";
 
 const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
               href="/"
               className="flex items-center text-4xl font-extrabold text-black"
             >
-              <img src={logo} className="p-5" alt="" />
+              <img src={logo} className="p-5 h-24" alt="" />
             </Link>
 
             {/* Navbar Center */}

@@ -10,13 +10,13 @@ const LogisticPartner = () => {
     {
       title: "Industry-leading tech",
       description:
-        "With a brilliant team of engineers driving everything we do, REDX offers the best possible service experience powered by superior technology",
+        "With a brilliant team of engineers driving everything we do, Careeh offers the best possible service experience powered by superior technology",
       icon: fastDelivery,
     },
     {
       title: "Nationwide coverage",
       description:
-        "REDX offers the widest logistics network, covering 64 districts and 490+ sub districts across Bangladesh",
+        "Careeh offers the widest logistics network, covering 64 districts and 490+ sub districts across Bangladesh",
       icon: dropPickupDelivery,
     },
     {
@@ -45,7 +45,7 @@ const LogisticPartner = () => {
   return (
     <div className="container mx-auto">
       <h2 className="font-bold text-[40px] text-center my-12">
-        Choose REDX as your logistics partner
+        Choose Careeh as your delivery partner
       </h2>
       <div className="grid sm:grid-cols-1 grid-cols-3 justify-items-center gap-12 p-8">
         {logistics.map((element) => (

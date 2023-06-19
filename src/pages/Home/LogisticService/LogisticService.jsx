@@ -8,8 +8,7 @@ const LogisticService = () => {
         </div>
         <div className="text-white">
           <h2 className="text-[40px] font-bold">
-            REDX provides logistics support in all 64 districts and 493 sub
-            districts across Bangladesh
+          Careeh extends on-demand logistics support across all Bangladesh
           </h2>
           <p className="text-lg mt-6 mb-10">
             Whatever your logistics need, we guarantee the fastest service all

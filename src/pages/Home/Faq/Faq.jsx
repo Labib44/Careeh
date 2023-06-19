@@ -6,21 +6,21 @@ const Faq = () => {
   const [id, setId] = useState(null);
   const questions = [
     {
-      question: "What is REDX?",
+      question: "What is Careeh?",
       answer:
-        "REDX is a tech-based logistics company operating nationwide and offering end-to-end services like parcel deliveries for SMEs, documents and parcel couriers for individuals and enterprise logistics solutions for corporate companies",
+        "Careeh is a nationwide tech-based logistics company that provides comprehensive end-to-end services. Our offerings include efficient parcel deliveries tailored for SMEs, reliable document and parcel couriers for individuals, and customized enterprise logistics solutions for corporate companies.",
       id: 1,
     },
     {
-      question: "What kind of services does REDX offer?",
+      question: "What kind of services does Careeh offer?",
       answer:
-        "REDX is a complete platform for end-to-end delivery and logistics services for any business or personal needs. The services include parcel delivery, bulk shipment, line hall, truck rental, loading-unloading, warehouse, logistics services and customized solutions as required.",
+        "Careeh is your ultimate platform for all-encompassing on-demand delivery and logistics services, catering to both business and personal requirements. Our diverse range of services includes Parcel Delivery, Courier, Trade pack, Shifting, Moving Store, Storage, Loading and Unloading assistance, Line Haul, comprehensive logistics services, and tailored solutions to meet your specific needs.",
       id: 2,
     },
     {
       question: "What is the coverage area of ​​REDX Delivery?",
       answer:
-        "REDX delivers to all 64 districts of Bangladesh. Click the link to see the full list of REDX delivery areas. Contact your nearest REDX Hub to book delivery today. Click here to see the full list of REDX Hubs.",
+        "Careeh offers delivery services to all 64 districts of Bangladesh. To view the complete list of Careeh delivery areas, please click the link. To book a delivery today, simply contact your nearest Careeh Hub.",
       id: 3,
     },
     {
