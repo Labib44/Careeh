@@ -14,7 +14,7 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
+        "Careeh is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client1,
       name: "Shunno Ayon",
       title: "Dighal",
@@ -22,7 +22,7 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
+        "Careeh is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client2,
       name: "Shunno Ayon",
       title: "Dighal",
@@ -30,7 +30,7 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
+        "Careeh is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client3,
       name: "Shunno Ayon",
       title: "Dighal",
@@ -38,7 +38,7 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
+        "Careeh is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client4,
       name: "Shunno Ayon",
       title: "Dighal",
@@ -46,7 +46,7 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
+        "Careeh is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client5,
       name: "Shunno Ayon",
       title: "Dighal",
@@ -54,7 +54,7 @@ const CustomerReviews = () => {
     {
       badge: "Enterprises",
       feedback:
-        "REDX is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
+        "Careeh is providing satisfactory last-mile delivery support which other tech couriers couldn’t provide us. The B2B sales team is very supportive and tracking system is helpful.",
       clientPhoto: client6,
       name: "Shunno Ayon",
       title: "Dighal",
@@ -64,7 +64,7 @@ const CustomerReviews = () => {
   return (
     <div className="px-5">
       <h2 className="font-bold text-center my-12 text-[40px]">
-        Clients love REDX
+        Clients love <span className="text-primary">Careeh</span>
       </h2>
       <Swiper
         slidesPerView={4}

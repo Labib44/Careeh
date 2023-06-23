@@ -17,24 +17,24 @@ const SuccessStory = () => {
             Merchant Success Story
           </h1>
           <p className="text-secondary font-bold mt-10  sm:mt-0 sm:px-5 md:px-5">
-            REDX is an important partner of our distribution
+            <span className="text-primary">Careeh</span> is an important partner of our distribution
           </p>
 
           <h1 className="text-secondary mt-10 sm:mt-0 text-[16px] sm:px-5 md:px-5 sm:pt-3">
-            REDX, a popular name in the field of logistics and distribution
+            <span className="text-primary">Careeh</span>, a popular name in the field of logistics and distribution
             management, has been partnering with Rangs for about a couple of
-            months now! It’s been so far so good with the journey, and REDX has
+            months now! It’s been so far so good with the journey, and <span className="text-primary">Careeh</span> has
             become an important part of Rangs distribution and delivery metrics
             in no time. We look forward to creating a long-term and successful
-            business relationship with REDX.
+            business relationship with <span className="text-primary">Careeh</span>.
           </h1>
 
           <h1 className="text-secondary font-bold mt-10 sm:mt-0 sm:px-5 md:px-5 sm:pt-3">
-            Salman A Khan
+          Ibnul Kais Aryan
           </h1>
 
           <p className="text-secondary sm:px-5 md:px-5 ">
-            Head of Brand, Local Electronics Conglomerate
+          CEO || Careeh Limited
           </p>
         </div>
       </div>

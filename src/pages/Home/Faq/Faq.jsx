@@ -18,7 +18,7 @@ const Faq = () => {
       id: 2,
     },
     {
-      question: "What is the coverage area of ​​REDX Delivery?",
+      question: "What is the coverage area of ​​Careeh Delivery?",
       answer:
         "Careeh offers delivery services to all 64 districts of Bangladesh. To view the complete list of Careeh delivery areas, please click the link. To book a delivery today, simply contact your nearest Careeh Hub.",
       id: 3,
@@ -26,7 +26,7 @@ const Faq = () => {
     {
       question: "Want to know about your delivery and logistics charges?",
       answer:
-        "Our delivery charge is designed according to the weight of the parcel. Charges start from Tk 69 per kg inside Dhaka, Tk 115 around Dhaka and Tk 150 outside Dhaka. 1% cash on delivery charge is applicable for every delivery near and outside Dhaka.See our Home Delivery and Hub Delivery Price Chart for personal parcel shipping charges. For enterprise logistics, contact our sales team. You can also call at 0910006339 for more information.Please note that delivery charges may vary depending on weight and location. Click on the link to know more about this and learn more about our price",
+        "Our delivery charges are based on the parcel's weight. Inside Dhaka, the charges start from Tk 69 per kg, Tk.115 around Dhaka, and Tk.150 outside Dhaka. Additionally, there is a 1% cash on delivery charge for deliveries near and outside Dhaka. Please refer to our Home Delivery and Hub Delivery Price Chart for detailed personal parcel shipping charges. For enterprise logistics solutions, kindly get in touch with our sales team. For further information, you can call us at 09678844448. It's important to note that delivery charges may vary based on the weight and location of the parcel. Click on the link to know more about this and learn more about our price.",
       id: 4,
     },
   ];

@@ -21,7 +21,7 @@ const Navbar = () => {
               href="/"
               className="flex items-center text-4xl font-extrabold text-black"
             >
-              <img src={logo} className="p-5 h-24" alt="" />
+              <img src={logo} className="p-5 h-[85px]" alt="" />
             </Link>
 
             {/* Navbar Center */}

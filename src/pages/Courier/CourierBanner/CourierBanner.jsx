@@ -8,7 +8,7 @@ const CourierBanner = () => {
         <div className="container mx-auto px-24 md:px-10 sm:px-5 h-full flex justify-center flex-col">
           <div className="w-[37%] lg:w-[50%] md:w-full sm:w-full">
             <h1 className="text-[40px] lg:text-[32px] md:text-[32px] sm:text-[26px] leading-[56px] sm:leading-[43px] font-bold ">
-              Use REDX Courier for the fastest nationwide delivery!
+              Use <span className="text-primary">Careeh</span> Courier for the fastest nationwide delivery!
             </h1>
             <div className="pt-7">
               <button className="transition-all w-[250px] text-base h-[50px] bg-primary flex items-center justify-center hover:bg-primary/70 text-white">

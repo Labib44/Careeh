@@ -5,7 +5,7 @@ const Partner = () => {
         <div className="flex md:flex-wrap sm:flex-wrap items-center justify-between md:mx-5 sm:sm:mx-5">
           <div>
             <h2 className="text-center text-4xl md:text-3xl sm:text-xl tracking-tighter font-bold py-5 md:px-5 sm:px-5">
-              Partner up with REDX today
+              Partner up with <span className="text-primary">Careeh</span> today
             </h2>
             <p className=" font-bold md:px-5 sm:px-5">
               Signing up takes only 2 mins

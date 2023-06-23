@@ -8,26 +8,26 @@ const Services = () => {
     {
       id: 1,
       icon: <NationwideHomeDelivery />,
-      title: "Nationwide home delivery",
-      dec: "Get your product delivered to your doorstep - no matter where you reside in Bangladesh.",
+      title: "Reduce operational costs",
+      dec: "No need to manage your own delivery fleet. Outsource and simply pay for the deliveries you need.",
     },
     {
       id: 2,
       icon: <FastConditionPayment />,
-      title: "Fast Condition Payment",
-      dec: "Get your condition money within the next day of the product delivery.",
+      title: "Fast & flexible delivery",
+      dec: "On-demand, same-day or advance orders. We’re ready when you are and promise a fast service.",
     },
     {
       id: 3,
       icon: <LiveTracking />,
-      title: "Live tracking",
-      dec: "Check the real-time location and the status of your courier in the comfort of your home.",
+      title: "Vast array of vehicles",
+      dec: "Different vehicles to suit any kind of business including trucks, vans, motorcycles and walkers for deliveries of anything of any size.",
     },
     {
       id: 4,
       icon: <SmsUpdate />,
-      title: "SMS update",
-      dec: "You will be notified when the product will reach to your nearby office.",
+      title: "Real-time tracking",
+      dec: "In-app tracking allows you and the receiver to track your order in real time during the delivery.",
     },
   ];
 

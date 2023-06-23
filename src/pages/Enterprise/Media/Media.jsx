@@ -48,7 +48,7 @@ const Media = () => {
     <section className=" py-20">
       <div className="container mx-auto my-10">
         <h1 className="text-secondary text-5xl md:text-3xl sm:text-2xl font-bold text-center p-5">
-          REDX in the news
+          <span className="text-primary">Careeh</span> in the news
         </h1>
 
         <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 p-5">

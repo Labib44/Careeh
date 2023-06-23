@@ -9,7 +9,7 @@ const Footwear = () => {
             How we have helped a global footwear brand scale so far
           </h1>
           <p className="text-xl text-secondary mt-10">
-            REDX delivers goods from their Central Distribution across their
+            <span className="text-primary">Careeh</span> delivers goods from their Central Distribution across their
             entire network of franchise outlets throughout the country
           </p>
 

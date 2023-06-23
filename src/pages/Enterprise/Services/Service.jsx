@@ -10,10 +10,10 @@ const Service = () => {
   const servicesData = [
     {
       id: 1,
-      title: "Avail Any Vehicle",
+      title: "Vast array of vehicles",
       logo: service1,
       discription:
-        "All vehicle sizes are available within 3 hours, anywhere in Bangladesh",
+        "No need to manage your own delivery fleet. Outsource and simply pay for the deliveries you need.",
     },
     {
       id: 2,
@@ -24,16 +24,16 @@ const Service = () => {
     },
     {
       id: 3,
-      title: "Loading/Unloading Support",
+      title: "Fast & flexible delivery",
       logo: service3,
-      discription: "Industry specific loading and unloading support available",
+      discription: "On-demand, same-day or advance orders. We’re ready when you are and promise a fast service.",
     },
     {
       id: 4,
-      title: "Shipment Tracking",
+      title: "Real-time tracking",
       logo: service4,
       discription:
-        "Stay up to date in real time with end to end shipment tracking",
+        "In-app tracking allows you and the receiver to track your order in real time during the delivery.",
     },
     {
       id: 5,

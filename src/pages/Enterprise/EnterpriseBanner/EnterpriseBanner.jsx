@@ -30,7 +30,7 @@ const EnterpriseBanner = () => {
               </p>
               <span className=" flex text-xl">
                 <FaPhoneAlt className="text-primary w-6 h-6 mx-2 pt-1" />
-                <p className="text-primary">09610007339</p>
+                <p className="text-primary">09678844448</p>
               </span>
             </div>
           </div>
