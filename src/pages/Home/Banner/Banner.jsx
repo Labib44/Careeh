@@ -6,19 +6,19 @@ import heroImage from "../../../assets/home/bgImage.jpeg";
 
 const Banner = () => {
   return (
-    <div className="overflow-hidden relative">
-      <div className="z-0 sm:h-[756px] h-[540px] overflow-hidden">
+    <div className="overflow-hidden relative bg-black">
+      <div className="z-0 h-[80vh] overflow-hidden">
         {/* <video autoPlay loop muted className="absolute z-0">
           <source src={hero1} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <img className="absolute z-0 bg-center bg-no-repeat bg-cover h-full w-full" src={heroImage} alt="heroImage" />
+        <img className="absolute z-0 lg:h-full h-auto w-full" src={heroImage} alt="heroImage" />
         <div className="overlay absolute top-0 left-0 w-[100%] sm:h-[50%] md:h-[85.5%] h-[100%]"></div>
         <div className="absolute sm:relative grid grid-cols-12 sm:grid-cols-2  items-center z-10 w-full h-full">
           <div className="col-span-8 px-12">
             <Slider />
           </div>
-          <div className="bg-black h-full sm:h-[82%] col-span-4 p-10">
+          <div className="bg-black col-span-4 p-10 rounded-l-3xl">
             <Form />
           </div>
         </div>

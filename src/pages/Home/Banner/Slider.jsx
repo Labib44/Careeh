@@ -5,9 +5,9 @@ const Slider = () => {
   const sliders = [
     {
       title: (
-        <h2 className="text-[52px] font-bold text-white">
-          Comprehensive logistics solutions for you!
-          <br /> <span className="text-primary">Rent truck in 3 hours</span>
+        <h2 className=" text-7xl font-bold text-white">
+          Comprehensive logistics <br />solutions for you!
+          {/* <br /> <span className="text-primary">Rent truck in 3 hours</span> */}
         </h2>
       ),
     },
