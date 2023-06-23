@@ -1,4 +1,5 @@
-import merchant from "../../../assets/enterprise/merchant-success-story.png";
+// import merchant from "../../../assets/enterprise/merchant-success-story.png";
+import ceoImage from "../../../assets/enterprise/ceoimage.jpeg";
 
 const SuccessStory = () => {
   return (
@@ -9,7 +10,7 @@ const SuccessStory = () => {
 
       <div className=" container mx-auto grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5">
         <div className="p-5 ml-20  mx-10 sm:mx-5 -mt-14 sm:-mt-0">
-          <img src={merchant} className="w-full" alt="" />
+          <img src={ceoImage} className="w-full" alt="" />
         </div>
 
         <div className=" my-40 md:my-10 lg:my-10 sm:my-5 ">
