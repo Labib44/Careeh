@@ -6,6 +6,11 @@ const NavItems = () => {
   return (
     <>
       <NavItem
+        pathName={"/"}
+        activePathName={activePathName}
+        navItemName={"Company"}
+      />
+      <NavItem
         pathName={"/enterprise"}
         activePathName={activePathName}
         navItemName={"Enterprise"}
@@ -14,11 +19,6 @@ const NavItems = () => {
         pathName={"/courier"}
         activePathName={activePathName}
         navItemName={"Personal"}
-      />
-      <NavItem
-        pathName={"/"}
-        activePathName={activePathName}
-        navItemName={"Company"}
       />
     </>
   );
