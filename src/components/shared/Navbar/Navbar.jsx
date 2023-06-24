@@ -12,21 +12,21 @@ const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
 
   return (
-    <header className="bg-white  z-50 w-full">
+    <header className="bg-white  z-50">
       <nav className="container mx-auto relative">
-        <div className="flex flex-wrap items-center justify-between  ">
+        <div className="flex flex-wrap items-center justify-between">
           {/* Navbar Left */}
-          <div className="flex items-center">
+          <div className="flex items-center sm:w-full">
             <Link
               href="/"
-              className="flex items-center text-4xl font-extrabold text-black"
+              className="flex items-center text-4xl font-extrabold text-black sm:w-full"
             >
-              <div className="flex justify-between">
+              <div className="flex justify-between sm:w-full">
                 <div>
                   <img src={logo} className="py-5 h-[85px]" alt="" />
                 </div>
                 <div className="hidden sm:block">
-                  <div className="flex items-center m-5 ">
+                  <div className="flex items-center justify-end m-5 ">
                     <button
                       type="button"
                       onClick={() => setIsMobileMenu(!isMobileMenu)}
