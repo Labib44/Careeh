@@ -4,11 +4,11 @@ import Form from "./Form";
 const Banner = () => {
   return (
     <div
-      className={`bg-hero-image min-h-screen md:min-h-[60vh] bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
+      className={`bg-hero-image min-h-[80vh] md:min-h-[60vh] bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
     >
       <div className="grid sm:grid-cols-1 sm:text-center grid-cols-2 sm:gap-10 gap-10 justify-between z-10 sm:py-10 sm:container">
-        <div className="flex justify-center items-center sm:ml-0 md:ml-8 lg:ml-8 xl:ml-9 ml-[200px]">
-          <h2 className="sm:text-3xl md:text-4xl lg:text-5xl text-4xl font-bold text-white leading-snug">
+        <div className="ml-14 flex items-center">
+          <h2 className="sm:text-4xl md:text-5xl lg:text-6xl text-[52px] font-bold text-white leading-snug">
             <span className="text-primary">Comprehensive logistics</span> <br />
             solutions for you!
           </h2>
