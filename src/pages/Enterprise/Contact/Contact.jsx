@@ -1,4 +1,4 @@
-import contact from "../../../assets/enterprise/contact-us-image2.webp";
+import contact from "../../../assets/enterprise/01.jpeg";
 
 const Contact = () => {
   return (
