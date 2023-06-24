@@ -9,7 +9,7 @@ const MobileMenu = ({ setIsMobileMenu, isMobileMenu }) => {
             <NavItem
                 pathName={"/"}
                 activePathName={activePathName}
-                navItemName={"Home"}
+                navItemName={"Company"}
                 isMobile
                 setIsMobileMenu={setIsMobileMenu}
                 isMobileMenu={isMobileMenu}
