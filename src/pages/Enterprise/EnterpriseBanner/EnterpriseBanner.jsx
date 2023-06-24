@@ -7,8 +7,8 @@ const EnterpriseBanner = () => {
     <div className="overflow-hidden sm:min-h-screen">
       <div className="bannerImg">
         <div className=" container mx-auto py-20 sm:py-0 grid grid-cols-2  sm:grid-cols-1 gap-5">
-          <div className="text-white mx-10">
-            <h1 className="text-5xl md:text-3xl sm:text-2xl font-bold p-5 leading-snug">
+          <div className="text-white">
+            <h1 className="text-5xl md:text-3xl sm:text-2xl font-bold py-5 leading-snug">
               Go the distance with tech-first enterprise logistics
               <span className=" text-primary"> enterprise</span>
             </h1>
@@ -35,7 +35,7 @@ const EnterpriseBanner = () => {
             </div>
           </div>
 
-          <div className="bg-secondary text-white rounded-md p-10 sm:p-5 md:p-5 mx-10 md:mx-5 sm:mx-5 ">
+          <div className="bg-secondary text-white rounded-md p-10 sm:p-5 md:p-5 mx-5 md:mx-5 sm:mx-5 ">
             <h1 className="text-center font-bold">
               SIGN UP FOR FREE. IT ONLY TAKES 2 MINUTES
             </h1>
