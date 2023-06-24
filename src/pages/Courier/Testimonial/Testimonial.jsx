@@ -22,7 +22,7 @@ const Testimonial = () => {
 
   return (
     <section className="pb-[110px] md:pb-[90px] sm:pb-[56]">
-      <div className="container mx-auto px-24 md:px-10 sm:px-5">
+      <div className="container mx-auto md:px-10 sm:px-5">
         <div className="mb-8">
           <h2 className="text-[40px] sm:text-[28px] font-bold text-center">
             Hear from our customers
