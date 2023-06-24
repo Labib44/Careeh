@@ -11,37 +11,37 @@ const Media = () => {
       id: 1,
       date: "September 7, 2021",
       logo: icon1,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
     },
     {
       id: 2,
       date: "September 7, 2021",
       logo: icon2,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
     },
     {
       id: 3,
       date: "September 7, 2021",
       logo: icon3,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
     },
     {
       id: 4,
       date: "September 7, 2021",
       logo: icon4,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
     },
     {
       id: 5,
       date: "September 7, 2021",
       logo: icon5,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
     },
     {
       id: 6,
       date: "September 7, 2021",
       logo: icon3,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
     },
   ];
   return (
