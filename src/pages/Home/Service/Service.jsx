@@ -1,10 +1,10 @@
-import bulkShipment from "../../../assets/home/service/bulk-shipment.webp";
-import parcelDelivery from "../../../assets/home/service/parcel-delivery.webp";
-import lineHaul from "../../../assets/home/service/line-haul.webp";
-import wareHouse from "../../../assets/home/service/warehouse.webp";
-import truckRent from "../../../assets/home/service/truck-rent.webp";
-import loadUnload from "../../../assets/home/service/load-unload.webp";
-import logisticeService from "../../../assets/home/service/logistics-service.webp";
+import bulkShipment from "../../../assets/home/service/06.jpeg";
+import parcelDelivery from "../../../assets/home/service/09.jpeg";
+import lineHaul from "../../../assets/home/service/08.jpeg";
+import wareHouse from "../../../assets/home/service/03.jpeg";
+import truckRent from "../../../assets/home/service/07.jpeg";
+import loadUnload from "../../../assets/home/service/05.jpeg";
+import logisticeService from "../../../assets/home/service/02.jpeg";
 import customiseSolutions from "../../../assets/home/service/customised-solutions.webp";
 const Service = () => {
   const services = [
@@ -16,13 +16,14 @@ const Service = () => {
     },
     {
       title: "Courier",
-      shortDes: "Careeh for First-mile pickup, last-mile delivery services for individuals (C2C), small businesses (B2C), and corporates (B2B).",
+      shortDes:
+        "Careeh for First-mile pickup, last-mile delivery services for individuals (C2C), small businesses (B2C), and corporates (B2B).",
       image: bulkShipment,
     },
     {
       title: "Trade Pack",
       shortDes:
-        "A travel pack commerce, delivering small quantities of goods to customers’ doors. Careeh is pioneering authentic purchasing through Trade Pack with a promise to deliver at the doorstep.",
+        "Virtual storage is the online selling of pooled physical storage, serving both consumers and retailers.",
       image: lineHaul,
     },
     {
@@ -40,7 +41,7 @@ const Service = () => {
     {
       title: "Storage",
       shortDes:
-        "A virtual storage is the pooling of physical storage from multiple network storage to sell online as a retailer to consumers and as a wholesaler to retailers.",
+        "Virtual storage is the online selling of pooled physical storage, serving both consumers and retailers.",
       image: loadUnload,
     },
     {
@@ -51,7 +52,8 @@ const Service = () => {
     },
     {
       title: "Line Haul",
-      shortDes: "Freight movement solutions including FTL (full truckload), LTL (less than truckload)",
+      shortDes:
+        "Freight movement solutions including FTL (full truckload), LTL (less than truckload)",
       image: customiseSolutions,
     },
   ];
@@ -63,10 +65,12 @@ const Service = () => {
       <div className="sm:grid-cols-1 md:grid-cols-3 grid grid-cols-4 gap-10">
         {services.map((servic) => (
           <div key={servic.title}>
-            <img src={servic.image} alt="image" />
+            <img src={servic.image} alt="image" className=" h-52 w-full" />
             <div className="mt-5">
               <h2 className="font-bold text-xl">{servic.title}</h2>
-              <p className="text-base text-zinc-700 text-justify">{servic.shortDes}</p>
+              <p className="text-base text-zinc-700 text-justify">
+                {servic.shortDes}
+              </p>
             </div>
           </div>
         ))}
