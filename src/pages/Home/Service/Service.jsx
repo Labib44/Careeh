@@ -1,11 +1,12 @@
-import bulkShipment from "../../../assets/home/service/05.jpeg";
-import parcelDelivery from "../../../assets/home/service/09.jpeg";
-import lineHaul from "../../../assets/home/service/08.jpeg";
-import wareHouse from "../../../assets/home/service/02.jpeg";
-import truckRent from "../../../assets/home/service/08.jpeg";
-import loadUnload from "../../../assets/home/service/03.jpeg";
-import logisticeService from "../../../assets/home/service/07.jpeg";
-import customiseSolutions from "../../../assets/home/service/customised-solutions.webp";
+import parcelDelivery from "../../../assets/home/service/Parcel.jpg";
+import bulkShipment from "../../../assets/home/service/Courier.jpg";
+import tradePack from "../../../assets/home/service/Trade Pack.png";
+import shifting from "../../../assets/home/service/Shifting.png";
+import movingStore from "../../../assets/home/service/Moving Store.jpg";
+import storage from "../../../assets/home/service/Storage.jpg";
+import loadAndUnload from "../../../assets/home/service/Load & Unload.jpg";
+import lineHaul from "../../../assets/home/service/Line Haul.jpg";
+
 const Service = () => {
   const services = [
     {
@@ -24,37 +25,37 @@ const Service = () => {
       title: "Trade Pack",
       shortDes:
         "Virtual storage is the online selling of pooled physical storage, serving both consumers and retailers.",
-      image: lineHaul,
+      image: tradePack,
     },
     {
       title: "Shifting",
       shortDes:
         "Book open trucks and covered vans for rent any size, anywhere in BD within seconds! Instant free quotes with our fair-smart algorithm on App.",
-      image: wareHouse,
+      image: shifting,
     },
     {
       title: "Moving Store",
       shortDes:
         "Allow to deliver groceries and household goods to customers' doorsteps in record time.",
-      image: truckRent,
+      image: movingStore,
     },
     {
       title: "Storage",
       shortDes:
         "Virtual storage is the online selling of pooled physical storage, serving both consumers and retailers.",
-      image: loadUnload,
+      image: storage,
     },
     {
-      title: "Load/Unload",
+      title: "Load / Unload",
       shortDes:
         "Industry-specific loading/unloading services in factories, project sites, and ports",
-      image: logisticeService,
+      image: loadAndUnload,
     },
     {
       title: "Line Haul",
       shortDes:
         "Freight movement solutions including FTL (full truckload), LTL (less than truckload)",
-      image: customiseSolutions,
+      image: lineHaul,
     },
   ];
   return (
