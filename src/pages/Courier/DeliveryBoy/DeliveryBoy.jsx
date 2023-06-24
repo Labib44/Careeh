@@ -2,7 +2,7 @@ import DeliveryBoyImg from "../../../assets/courier/del-boy.jpg";
 const DeliveryBoy = () => {
   return (
     <section className="pt-14 md:pt-0 sm:pt-0 pb-[160px] md:pb-[90px] sm:pb-[56px] ">
-      <div className="container mx-auto px-32 md:px-10 sm:px-5 relative">
+      <div className="container mx-auto md:px-10 sm:px-5 relative">
         <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-16 md:gap-8 sm:gap-8">
           <div className="h-[460px] lg:h-[400px] sm:h-[360px]">
             <img

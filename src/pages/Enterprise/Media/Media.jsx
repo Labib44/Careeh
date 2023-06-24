@@ -9,49 +9,55 @@ const Media = () => {
   const mediaData = [
     {
       id: 1,
-      date: "September 7, 2021",
+      date: "October 15, 2021",
       logo: icon1,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription:
+        "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 2,
-      date: "September 7, 2021",
+      date: "January 7, 2022",
       logo: icon2,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription:
+        "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 3,
-      date: "September 7, 2021",
+      date: "February 10, 2022",
       logo: icon3,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription:
+        "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 4,
-      date: "September 7, 2021",
+      date: "June 20, 2022",
       logo: icon4,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription:
+        "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 5,
-      date: "September 7, 2021",
+      date: "September 9, 2022",
       logo: icon5,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription:
+        "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 6,
-      date: "September 7, 2021",
+      date: "April 27, 2023",
       logo: icon3,
-      discription: "Commerce platform ShopUp raises $75 million in Bangladesh",
+      discription:
+        "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
   ];
   return (
-    <section className=" py-20">
+    <section className="py-20">
       <div className="container mx-auto my-10">
-        <h1 className="text-secondary text-5xl md:text-3xl sm:text-2xl font-bold text-center p-5">
+        <h1 className="text-secondary text-5xl md:text-3xl sm:text-2xl font-bold text-center">
           <span className="text-primary">Careeh</span> in the news
         </h1>
 
-        <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 p-5">
+        <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-14">
           {mediaData.map((medData) => (
             <MediaCard key={medData.id} medData={medData}></MediaCard>
           ))}

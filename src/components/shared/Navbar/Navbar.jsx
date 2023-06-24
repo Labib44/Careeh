@@ -4,7 +4,7 @@ import CustomButton from "../CustomButton/CustomButton";
 import NavItems from "./NavItems/NavItems";
 import MobileMenu from "./MobileMenu/MobileMenu";
 
-import { FaPhoneAlt } from "react-icons/fa";
+// import { FaPhoneAlt } from "react-icons/fa";
 import { CiGlobe } from "react-icons/ci";
 import logo from "../../../assets/logo/CareehLogo.png";
 
@@ -48,7 +48,6 @@ const Navbar = () => {
                       </svg>
                     </button>
                   </div>
-
                 </div>
               </div>
             </Link>
@@ -62,12 +61,12 @@ const Navbar = () => {
           </div>
           {/* Navbar Right */}
           <div className="flex">
-            <div className=" flex items-center mx-5">
+            {/* <div className=" flex items-center mx-5">
               <FaPhoneAlt className="text-primary w-6 h-6 mx-2 pt-1" />
               <p className="text-primary">
-                <span className=" text-secondary">Call</span> 09610007339
+                <span className=" text-secondary">Call</span> 09678844448
               </p>
-            </div>
+            </div> */}
 
             <Link to={"/"}>
               <CustomButton

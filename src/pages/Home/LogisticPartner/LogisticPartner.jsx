@@ -47,7 +47,7 @@ const LogisticPartner = () => {
       <h2 className="font-bold text-[40px] text-center my-12">
         Choose Careeh as your delivery partner
       </h2>
-      <div className="grid sm:grid-cols-1 grid-cols-3 justify-items-center gap-12 p-8">
+      <div className="grid sm:grid-cols-1 grid-cols-3 justify-items-center gap-12 p-8 mb-14">
         {logistics.map((element) => (
           <div
             className="flex flex-col items-center text-center"

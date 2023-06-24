@@ -5,10 +5,11 @@ const CourierBanner = () => {
   return (
     <section>
       <div className="bg-courier-banner relative h-[460px] md:h-[400px] sm:h-[380px] bg-no-repeat bg-cover bg-left">
-        <div className="container mx-auto px-24 md:px-10 sm:px-5 h-full flex justify-center flex-col">
+        <div className="container mx-auto md:px-10 sm:px-5 h-full flex justify-center flex-col">
           <div className="w-[37%] lg:w-[50%] md:w-full sm:w-full">
             <h1 className="text-[40px] lg:text-[32px] md:text-[32px] sm:text-[26px] leading-[56px] sm:leading-[43px] font-bold ">
-              Use <span className="text-primary">Careeh</span> Courier for the fastest nationwide delivery!
+              Use <span className="text-primary">Careeh</span> Courier for the
+              fastest nationwide delivery!
             </h1>
             <div className="pt-7">
               <button className="transition-all w-[250px] text-base h-[50px] bg-primary flex items-center justify-center hover:bg-primary/70 text-white">
@@ -20,12 +21,12 @@ const CourierBanner = () => {
         </div>
       </div>
       <div className="py-6 bg-black ">
-        <div className="container mx-auto px-24 md:px-10 sm:px-5 flex md:flex-col sm:flex-col  justify-between md:items-center sm:items-center ">
+        <div className="container mx-auto md:px-10 sm:px-5 flex md:flex-col sm:flex-col  justify-between md:items-center sm:items-center ">
           <p className="text-base sm:text-[12px] text-white leading-[16px] lg:leading-[24px] flex items-center">
             Your courier is right on track! Check it now with our online
             tracking service
           </p>
-          <div className="relative flex md:mt-5 sm:mt-3 ml-5">
+          <div className="relative flex md:mt-5 sm:mt-3 ">
             <div>
               <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <img src={SearchIcon} alt="search-icon" />
