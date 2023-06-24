@@ -25,7 +25,7 @@ const MobileMenu = ({ setIsMobileMenu, isMobileMenu }) => {
             <NavItem
                 pathName={"/courier"}
                 activePathName={activePathName}
-                navItemName={"Courier"}
+                navItemName={"Personal"}
                 isMobile
                 setIsMobileMenu={setIsMobileMenu}
                 isMobileMenu={isMobileMenu}
