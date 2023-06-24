@@ -13,7 +13,12 @@ const NavItems = () => {
       <NavItem
         pathName={"/courier"}
         activePathName={activePathName}
-        navItemName={"Courier"}
+        navItemName={"Personal"}
+      />
+      <NavItem
+        pathName={"/"}
+        activePathName={activePathName}
+        navItemName={"Company"}
       />
     </>
   );
