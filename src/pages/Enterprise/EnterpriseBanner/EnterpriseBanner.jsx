@@ -1,13 +1,10 @@
-import "./EnterpriseBanner.css";
-// import { FaCheckCircle, FaPhoneAlt } from "react-icons/fa";
-// import flag from "../../../assets/enterprise/bangladesh-flag.png";
 import Form from "../../Home/Banner/Form";
 
 const EnterpriseBanner = () => {
   return (
     <>
       <div
-        className={`bannerImg min-h-[80vh] md:min-h-[60vh] bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
+        className={`bg-interprise-banner min-h-[80vh] md:min-h-[60vh] bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
       >
         <div className="grid sm:grid-cols-1 sm:text-center grid-cols-2 sm:gap-10 gap-10 justify-between z-10 sm:py-10 sm:container">
           <div className="sm:ml-0 ml-16 flex items-center">
