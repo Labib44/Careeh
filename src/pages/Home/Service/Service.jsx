@@ -6,6 +6,7 @@ import movingStore from "../../../assets/home/service/Moving Store.jpg";
 import storage from "../../../assets/home/service/Storage.jpg";
 import loadAndUnload from "../../../assets/home/service/Load & Unload.jpg";
 import lineHaul from "../../../assets/home/service/Line Haul.jpg";
+import "./Service.css";
 
 const Service = () => {
   const services = [
@@ -65,8 +66,10 @@ const Service = () => {
       </h2>
       <div className="sm:grid-cols-1 md:grid-cols-3 grid grid-cols-4 gap-10">
         {services.map((servic) => (
-          <div key={servic.title}>
-            <img src={servic.image} alt="image" className=" h-52 w-full" />
+          <div className="parent-class" key={servic.title}>
+            <div className="child-class">
+              <img src={servic.image} alt="image" className=" h-52 w-full" />
+            </div>
             <div className="mt-5">
               <h2 className="font-bold text-xl">{servic.title}</h2>
               <p className="text-base text-zinc-700 text-justify">

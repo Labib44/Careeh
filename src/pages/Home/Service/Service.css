@@ -1,0 +1,12 @@
+.child-class{
+    overflow: hidden;
+    position: relative;
+    width: 100%; height: 208px;
+}
+.child-class img{
+    transition: scale 400ms;
+    position: absolute;
+}
+.parent-class:hover > div > img{
+    scale: 120%;
+}

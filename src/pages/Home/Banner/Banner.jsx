@@ -7,9 +7,10 @@ const Banner = () => {
       className={`bg-hero-image min-h-[80vh] md:min-h-[60vh] bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
     >
       <div className="grid sm:grid-cols-1 sm:text-center grid-cols-2 sm:gap-10 gap-10 justify-between z-10 sm:py-10 sm:container">
-        <div className="ml-14 flex items-center">
-          <h2 className="sm:text-4xl md:text-5xl lg:text-6xl text-[52px] font-bold text-white leading-snug">
-            <span className="text-primary">Comprehensive logistics</span> <br />
+        <div className="sm:ml-0  ml-14 flex items-center">
+          <h2 className="sm:text-3xl md:text-5xl lg:text-6xl text-[52px] font-bold text-white leading-snug">
+            <span className="text-primary">Comprehensive logistics</span>{" "}
+            <br className="sm:hidden" />
             solutions for you!
           </h2>
         </div>
@@ -17,7 +18,7 @@ const Banner = () => {
           <Form />
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
     </div>
   );
 };
