@@ -1,35 +1,24 @@
-import "./Banner.css";
 // import hero1 from "../../../assets/video/hero-video-1.webm";
 import Form from "./Form";
-import Slider from "./Slider";
-import heroImage from "../../../assets/home/bgImage.jpeg";
 
 const Banner = () => {
   return (
-    <>
-      <div className="overflow-hidden relative bg-black">
-        <div className="z-0 h-[80vh] overflow-hidden">
-          {/* <video autoPlay loop muted className="absolute z-0">
-          <source src={hero1} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video> */}
-          <img
-            className="absolute z-0 lg:h-full h-auto w-full"
-            src={heroImage}
-            alt="heroImage"
-          />
-          <div className="overlay absolute top-0 left-0 w-[100%] h-[100%]"></div>
-          <div className="absolute sm:relative grid grid-cols-12 sm:grid-cols-2 items-center z-10 w-full h-full">
-            <div className="col-span-8 px-12">
-              <Slider />
-            </div>
-            <div className="bg-black col-span-4 p-10 rounded-l-3xl">
-              <Form />
-            </div>
-          </div>
+    <div
+      className={`bg-hero-image min-h-screen bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
+    >
+      <div className="grid sm:grid-cols-1 sm:text-center grid-cols-2 justify-between container gap-10 z-10 sm:py-10">
+        <div className="flex justify-center items-center">
+          <h2 className="sm:text-5xl md:text-5xl lg:text-6xl text-7xl font-bold text-white leading-tight">
+            <span className="text-primary">Comprehensive logistics</span> <br />
+            solutions for you!
+          </h2>
+        </div>
+        <div className="bg-black px-12 py-20 rounded-md z-10">
+          <Form />
         </div>
       </div>
-    </>
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+    </div>
   );
 };
 
