@@ -17,46 +17,48 @@ const Navbar = () => {
         <div className="flex flex-wrap items-center justify-between">
           {/* Navbar Left */}
           <div className="flex items-center sm:w-full">
-            <Link
-              href="/"
-              className="flex items-center text-4xl font-extrabold text-black sm:w-full"
-            >
-              <div className="flex justify-between sm:w-full">
+
+            <div className="flex justify-between sm:w-full">
+              <Link
+                href="/"
+                className="flex items-center text-4xl font-extrabold text-black sm:w-full"
+              >
                 <div>
                   <img src={logo} className="py-5 h-[85px]" alt="" />
                 </div>
-                <div className="hidden sm:block">
-                  <div className="flex items-center justify-end m-5 ">
-                    {/* -------- */}
-                    <div className=" flex items-center border-l-4 border-r-4 px-5 ">
-                      <CiGlobe className="text-gray-400 w-10 h-10 pt-1 sm:w-8 sm:h-8" />
-                      <p className=" text-secondary text-xl">EN</p>
-                    </div>
+              </Link>
+              <div className="hidden sm:block">
+                <div className="flex items-center justify-end m-5 ">
 
-                    <button
-                      type="button"
-                      onClick={() => setIsMobileMenu(!isMobileMenu)}
-                      className="ml-4 sm:inline-flex md:inline-flex hidden items-center p-2 text-sm text-gray-500 rounded-lg  focus:outline-none focus:ring-2 focus:ring-gray-200 "
-                    >
-                      <span className="sr-only">Open main menu</span>
-                      <svg
-                        className="w-6 h-6"
-                        aria-hidden="true"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                    </button>
+                  <div className=" flex items-center border-l-4 border-r-4 px-5 ">
+                    <CiGlobe className="text-gray-400 w-10 h-10 pt-1 sm:w-8 sm:h-8" />
+                    <p className=" text-secondary text-xl">EN</p>
                   </div>
+
+                  <button
+                    type="button"
+                    onClick={() => setIsMobileMenu(!isMobileMenu)}
+                    className="ml-4 sm:inline-flex md:inline-flex hidden items-center p-2 text-sm text-gray-500 rounded-lg  focus:outline-none focus:ring-2 focus:ring-gray-200 "
+                  >
+                    <span className="sr-only">Open main menu</span>
+                    <svg
+                      className="w-6 h-6"
+                      aria-hidden="true"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </button>
                 </div>
               </div>
-            </Link>
+            </div>
+
 
             {/* Navbar Center */}
             <div className="md:hidden sm:hidden">
@@ -74,7 +76,7 @@ const Navbar = () => {
               </p>
             </div> */}
             <div className="sm:hidden block">
-              <div className=" flex items-center border-l-4 border-r-4 px-5 ">
+              <div className=" flex items-center border-l-4 border-r-4 mr-5 px-5 ">
                 <CiGlobe className="text-gray-400 w-10 h-10 pt-1 " />
                 <p className=" text-secondary text-xl">EN</p>
               </div>
@@ -125,7 +127,7 @@ const Navbar = () => {
 
           <li className="ml-8 mt-5 mb-4">
             <CustomButton
-              buttonName={""}
+              buttonName={"Login"}
               cssStyle={
                 "bg-primary hover:bg-primary/90 text-white px-5 py-[14px] "
               }

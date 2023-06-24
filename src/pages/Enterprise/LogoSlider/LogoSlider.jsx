@@ -23,10 +23,44 @@ const LogoSlider = () => {
         progressCircle.current.style.setProperty('--progress', 1 - progress);
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
+
+    const sliderData=[
+        {
+            logo:bata,
+        },
+        {
+            logo:lotto,
+        },
+        {
+            logo:rangs,
+        },
+        {
+            logo:bengal,
+        },
+        {
+            logo:sena,
+        },
+        {
+            logo:bata,
+        },
+        {
+            logo:lotto,
+        },
+        {
+            logo:rangs,
+        },
+        {
+            logo:bengal,
+        },
+        {
+            logo:sena,
+        },
+       
+    ]
     return (
         <div className="">
             <Swiper
-                slidesPerView={5}
+                slidesPerView={6}
                 spaceBetween={10}
                
                 autoplay={{
@@ -39,16 +73,13 @@ const LogoSlider = () => {
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
                 className="mySwiper mt-10"
             >
-                <SwiperSlide><img src={bata} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={lotto} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={rangs} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={bengal} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={sena} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={bata} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={lotto} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={rangs} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={bengal} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={sena} alt="" /></SwiperSlide>
+                {
+                    sliderData.map((slData, idx)=><SwiperSlide
+                    key={idx}
+                    slData={slData}
+                    ><img src={slData.logo} alt="" /></SwiperSlide>)
+                }
+                
                 <div className="autoplay-progress hidden" slot="container-end">
                     <svg viewBox="0 0 48 48" ref={progressCircle}>
                         <circle cx="24" cy="24" r="20"></circle>
