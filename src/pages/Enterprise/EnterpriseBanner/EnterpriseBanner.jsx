@@ -11,8 +11,8 @@ const EnterpriseBanner = () => {
       className={`bannerImg min-h-[80vh] md:min-h-[60vh] bg-cover bg-center bg-no-repeat flex justify-center items-center relative `}
     >
       <div className="grid sm:grid-cols-1 sm:text-center grid-cols-2 sm:gap-10 gap-10 justify-between z-10 sm:py-10 sm:container">
-        <div className="ml-14 flex items-center">
-          <h2 className="sm:text-4xl md:text-5xl lg:text-6xl text-[42.25px] font-bold text-white leading-snug">
+        <div className="ml-16 flex items-center">
+          <h2 className="sm:text-4xl md:text-5xl lg:text-6xl text-[40px] font-bold text-white leading-snug">
             Go the distance with tech-first <br /> <span className="text-primary">enterprise logistics</span>
           </h2>
         </div>
