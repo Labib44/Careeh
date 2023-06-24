@@ -48,7 +48,6 @@ const Navbar = () => {
                       </svg>
                     </button>
                   </div>
-
                 </div>
               </div>
             </Link>
@@ -65,7 +64,7 @@ const Navbar = () => {
             <div className=" flex items-center mx-5">
               <FaPhoneAlt className="text-primary w-6 h-6 mx-2 pt-1" />
               <p className="text-primary">
-                <span className=" text-secondary">Call</span> 09610007339
+                <span className=" text-secondary">Call</span> 09678844448
               </p>
             </div>
 

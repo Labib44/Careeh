@@ -9,39 +9,39 @@ const Media = () => {
   const mediaData = [
     {
       id: 1,
-      date: "September 7, 2021",
+      date: "October 15, 2021",
       logo: icon1,
-      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
+      discription: "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 2,
-      date: "September 7, 2021",
+      date: "January 7, 2022",
       logo: icon2,
-      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
+      discription: "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 3,
-      date: "September 7, 2021",
+      date: "February 10, 2022",
       logo: icon3,
-      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
+      discription: "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 4,
-      date: "September 7, 2021",
+      date: "June 20, 2022",
       logo: icon4,
-      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
+      discription: "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 5,
-      date: "September 7, 2021",
+      date: "September 9, 2022",
       logo: icon5,
-      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
+      discription: "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
     {
       id: 6,
-      date: "September 7, 2021",
+      date: "April 27, 2023",
       logo: icon3,
-      discription: "Commerce platform Careeh raises $75 million in Bangladesh",
+      discription: "Mix platform Banglamix plans to launch Careeh soon in Bangladesh",
     },
   ];
   return (
