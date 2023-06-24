@@ -27,6 +27,12 @@ const Navbar = () => {
                 </div>
                 <div className="hidden sm:block">
                   <div className="flex items-center justify-end m-5 ">
+                    {/* -------- */}
+                    <div className=" flex items-center border-l-4 border-r-4 px-5 ">
+                      <CiGlobe className="text-gray-400 w-10 h-10 pt-1 sm:w-8 sm:h-8" />
+                      <p className=" text-secondary text-xl">EN</p>
+                    </div>
+
                     <button
                       type="button"
                       onClick={() => setIsMobileMenu(!isMobileMenu)}
@@ -67,6 +73,12 @@ const Navbar = () => {
                 <span className=" text-secondary">Call</span> 09678844448
               </p>
             </div> */}
+            <div className="sm:hidden block">
+              <div className=" flex items-center border-l-4 border-r-4 px-5 ">
+                <CiGlobe className="text-gray-400 w-10 h-10 pt-1 " />
+                <p className=" text-secondary text-xl">EN</p>
+              </div>
+            </div>
 
             <Link to={"/"}>
               <CustomButton
@@ -76,11 +88,6 @@ const Navbar = () => {
                 }
               />
             </Link>
-
-            <div className=" flex items-center border-l-4 border-r-4 mx-5 px-5 ">
-              <CiGlobe className="text-gray-400 w-10 h-10 pt-1" />
-              <p className=" text-secondary text-xl">EN</p>
-            </div>
 
             <div className="sm:hidden block">
               <button
