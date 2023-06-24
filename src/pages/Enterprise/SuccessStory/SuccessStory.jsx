@@ -3,7 +3,7 @@ import ceoImage from "../../../assets/enterprise/ceoimage.jpeg";
 
 const SuccessStory = () => {
   return (
-    <div className="mt-20 bg-gray-100 pb-16">
+    <div className="mt-20 sm:mt-5 bg-gray-100 pb-16">
       <h1 className="text-4xl text-center md:text-3xl sm:text-2xl font-bold text-secondary sm:p-5 md:px-5 hidden ">
         Merchant Success Story
       </h1>
