@@ -17,8 +17,8 @@ import logo from "../../../assets/logo/CareehLogo.png";
 
 const Footer = () => {
   return (
-    <footer className="p-6 py-20 bg-[#f5f5f5]">
-      <div className="container grid grid-cols-4 mx-auto gap-x-3 gap-y-8 sm:grid-cols-2 md:grid-cols-2 py-20 md:hidden sm:hidden">
+    <footer className="p-6 py-20 sm:py-10 bg-[#f5f5f5]">
+      <div className="container grid grid-cols-4 mx-auto gap-x-3 gap-y-8 sm:grid-cols-1 md:grid-cols-2 py-20 sm:py-10">
         <div className="flex flex-col space-y-4">
           <Link to={"/"}>
             <img src={logo} className=" w-40 h-auto" alt="logo" />
