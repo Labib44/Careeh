@@ -45,10 +45,10 @@ const Footer = () => {
             >
               Enterprise
             </Link>
-            <Link className="text-[#000000a6] text-[16px] font-serif pt-2 hover:underline underline-offset-1">
+            <Link to={"/coverage-areaV2"} className="text-[#000000a6] text-[16px] font-serif pt-2 hover:underline underline-offset-1">
               Coverage Area
             </Link>
-            <Link className="text-[#000000a6] text-[16px] font-serif pt-2 hover:underline underline-offset-1">
+            <Link to={"/privacypolicy"} className="text-[#000000a6] text-[16px] font-serif pt-2 hover:underline underline-offset-1">
               Privacy Policy
             </Link>
             <Link className="text-[#000000a6] text-[16px] font-serif pt-2 hover:underline underline-offset-1">

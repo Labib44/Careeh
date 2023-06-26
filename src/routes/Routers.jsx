@@ -4,6 +4,8 @@ import Home from "../pages/Home/Home";
 import Courier from "../pages/Courier/Courier";
 import CoverageArea from "../pages/CoverageArea/CoverageArea";
 import Enterprise from "../pages/Enterprise/Enterprise";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
+import CoverageAreaV2 from "../pages/CoverageAreaV2/CoverageAreaV2";
 
 
 
@@ -28,6 +30,14 @@ const routers = createBrowserRouter([
             {
                 path: "/coverage-area",
                 element: <CoverageArea />,
+            },
+            {
+                path: "/coverage-areaV2",
+                element: <CoverageAreaV2></CoverageAreaV2>,
+            },
+            {
+                path: "/privacypolicy",
+                element: <PrivacyPolicy/>,
             },
         ],
     },
