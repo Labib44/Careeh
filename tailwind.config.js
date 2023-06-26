@@ -20,7 +20,7 @@ export default {
             backgroundImage:{
                 "hero-image": "url('/src/assets/home/bgImage.jpeg')",
                 "courier-banner":"url('/src/assets/courier/banner.jpg')",
-                "interprise-banner":"url('/src/assets/enterprise/interprise-banner.png')"
+                "interprise-banner":"url('/src/assets/enterprise/interprise-banner.png')",
             }
         },
     },
