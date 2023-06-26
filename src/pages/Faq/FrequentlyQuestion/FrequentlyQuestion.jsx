@@ -35,15 +35,15 @@ const answers = [
     title: "Small business",
     questions: [
       {
-        question: "What is REDX Delivery?",
+        question: "What is Careeh Delivery?",
         answer:
-          "REDX Delivery is a logistics company that aims to aid Bangladesh’s expanding e-commerce sector by providing tech-first delivery support. With exclusive features and a talented workforce, REDX Delivery gives the delivery service industry of Bangladesh a brand new pace. REDX delivers for both businesses and individuals. You can use our services to deliver everything from products to your customer’s doorstep to important personal documents and parcels to your friends and family.",
+          "Careeh Delivery is a logistics company that aims to aid Bangladesh’s expanding e-commerce sector by providing tech-first delivery support. With exclusive features and a talented workforce, Careeh Delivery gives the delivery service industry of Bangladesh a brand new pace. Careeh delivers for both businesses and individuals. You can use our services to deliver everything from products to your customer’s doorstep to important personal documents and parcels to your friends and family.",
         id: 1,
       },
       {
         question: "How do I contact you?",
         answer:
-          "You can call us at 09610007339 or you can email us at contact@redx.com.bd. Additionally you can also reach out to us over live chat from our app or from our web portal. You can also connect with us on Facebook.",
+          "You can call us at 09610007339 or you can email us at contact@Careeh.com.bd. Additionally you can also reach out to us over live chat from our app or from our web portal. You can also connect with us on Facebook.",
         id: 2,
       },
       {
@@ -53,9 +53,9 @@ const answers = [
         id: 3,
       },
       {
-        question: "How do I send a product/ courier via REDX Delivery?",
+        question: "How do I send a product/ courier via Careeh Delivery?",
         answer:
-          "We do home delivery for products and parcels of multiple sizes and weights all over Bangladesh. To avail our services, please register with us on our website here, or download the REDX app from Google Play Store. You can also contact us at 09610007339.Click this link to know about how to create a REDX account. To learn how to send a parcel through REDX, please visit this link.",
+          "We do home delivery for products and parcels of multiple sizes and weights all over Bangladesh. To avail our services, please register with us on our website here, or download the Careeh app from Google Play Store. You can also contact us at 09610007339.Click this link to know about how to create a Careeh account. To learn how to send a parcel through Careeh, please visit this link.",
         id: 4,
       },
       {
@@ -68,14 +68,14 @@ const answers = [
       {
         question: "Can you do product exchange from customers?",
         answer:
-          "To see the video tutorial on how to exchange a parcel, please click this link. To read about the steps in details, visit link. For more information please contact us at 09610007339 or email at contact@redx.com.bd.",
+          "To see the video tutorial on how to exchange a parcel, please click this link. To read about the steps in details, visit link. For more information please contact us at 09610007339 or email at contact@Careeh.com.bd.",
         id: 6,
       },
       {
         question:
           "Can you deliver to addresses inside Cantonment or other restricted areas?",
         answer:
-          "Although REDX provides doorstep home delivery service in Dhaka along with all other districts, if security in such areas prohibit outside entry, our delivery men will wait at the gate and you can come collect your package from there.",
+          "Although Careeh provides doorstep home delivery service in Dhaka along with all other districts, if security in such areas prohibit outside entry, our delivery men will wait at the gate and you can come collect your package from there.",
         id: 7,
       },
       {
@@ -85,9 +85,9 @@ const answers = [
         id: 8,
       },
       {
-        question: "What kind of products does REDX deliver?",
+        question: "What kind of products does Careeh deliver?",
         answer:
-          "We deliver all valid portable products. REDX is a courier service and parcel delivery service that offers the flexibility merchants and customers need.",
+          "We deliver all valid portable products. Careeh is a courier service and parcel delivery service that offers the flexibility merchants and customers need.",
         id: 9,
       },
       {
@@ -95,14 +95,14 @@ const answers = [
         question:
           "Do you have any web version or mobile application for cargo requisition?",
         answer:
-          "Currently we’re collecting requisitions over mail & hotline. However, we’re working on the web version. Besides, you’ll be able to book a cargo through RedX android app very soon.",
+          "Currently we’re collecting requisitions over mail & hotline. However, we’re working on the web version. Besides, you’ll be able to book a cargo through Careeh android app very soon.",
         id: 10,
       },
       {
         question:
           "Currently What’s the procedure to book a cargo for my shipment?",
         answer:
-          "Simply call us & let us know your requirements in detail. We’ll get back to you with the vehicle confirmation & pricing within the next 120 minutes. If you agree, we’ll simply deploy our cargo to report to your loading point within the next 60 minutes.For prefixed requirements, simply drop a mail to cargo@redx.com.bd & we’ll get back to you as early as possible.",
+          "Simply call us & let us know your requirements in detail. We’ll get back to you with the vehicle confirmation & pricing within the next 120 minutes. If you agree, we’ll simply deploy our cargo to report to your loading point within the next 60 minutes.For prefixed requirements, simply drop a mail to cargo@Careeh.com.bd & we’ll get back to you as early as possible.",
         id: 11,
       },
     ],
@@ -126,7 +126,7 @@ const answers = [
       {
         question: "How can I update my payment information?",
         answer:
-          "Log in to your account at redx.com.bd. Then go to the drop-down menu from your profile icon and select shop settings. From there, you can update your payment method and details accordingly. Click this link to know the step-by-step process.",
+          "Log in to your account at Careeh.com.bd. Then go to the drop-down menu from your profile icon and select shop settings. From there, you can update your payment method and details accordingly. Click this link to know the step-by-step process.",
         id: 3,
       },
       {
@@ -165,7 +165,7 @@ const answers = [
       {
         question: "When should I inform you if an item is lost or damaged?",
         answer:
-          "You must inform us regarding any lost or damaged items immediately upon discovery. It can be either during delivery or while returning a parcel. The maximum time we allow for raising an issue is within 3 days.To learn about how to let us know about this issue through the website, visit this link. To read about the process, click link. To let us know through the REDX app, kindly watch this link.",
+          "You must inform us regarding any lost or damaged items immediately upon discovery. It can be either during delivery or while returning a parcel. The maximum time we allow for raising an issue is within 3 days.To learn about how to let us know about this issue through the website, visit this link. To read about the process, click link. To let us know through the Careeh app, kindly watch this link.",
         id: 2,
       },
       {
@@ -210,21 +210,21 @@ const answers = [
         id: 1,
       },
       {
-        question: "What is REDX’s pickup time?",
+        question: "What is Careeh’s pickup time?",
         answer:
           "Our regular pickup time for home delivery service in Dhaka and all other districts is 3pm to 8pm.",
         id: 2,
       },
       {
-        question: "Does REDX provide parcel delivery in Dhaka only?",
+        question: "Does Careeh provide parcel delivery in Dhaka only?",
         answer:
-          "When we say REDX provides home delivery service in Bangladesh, we mean that we deliver all across the country, to every doorstep. If the destination is part of the coverage area, we will promptly deliver it.",
+          "When we say Careeh provides home delivery service in Bangladesh, we mean that we deliver all across the country, to every doorstep. If the destination is part of the coverage area, we will promptly deliver it.",
         id: 3,
       },
       {
         question: "What is your coverage area?",
         answer:
-          "We deliver your products in all of the 64 districts of Bangladesh. You can place an order by contacting your nearest REDX Delivery hub. Click here to see details on all hubs.",
+          "We deliver your products in all of the 64 districts of Bangladesh. You can place an order by contacting your nearest Careeh Delivery hub. Click here to see details on all hubs.",
         id: 4,
       },
       {
@@ -241,8 +241,8 @@ const answers = [
       },
       {
         question:
-          "Where can I find information about my nearest REDX Delivery hub?",
-        answer: "To find your nearest REDX Delivery hub click here",
+          "Where can I find information about my nearest Careeh Delivery hub?",
+        answer: "To find your nearest Careeh Delivery hub click here",
         id: 7,
       },
     ],
@@ -251,27 +251,27 @@ const answers = [
     qID: 5,
     questions: [
       {
-        question: "How can I connect with REDX using API?",
+        question: "How can I connect with Careeh using API?",
         answer:
-          "Connecting to REDX API is a very simple process. Simply contact your key account manager mentioning your interest in API integration. Your respective KAM will be placing your API integration request to our tech team. Your tech POC will receive the necessary testing documents for API integration. Once your team confirms the testing being successful, we will send you tokens to work live with REDX!",
+          "Connecting to Careeh API is a very simple process. Simply contact your key account manager mentioning your interest in API integration. Your respective KAM will be placing your API integration request to our tech team. Your tech POC will receive the necessary testing documents for API integration. Once your team confirms the testing being successful, we will send you tokens to work live with Careeh!",
         id: 1,
       },
       {
-        question: "What is the API integration process of REDX?",
+        question: "What is the API integration process of Careeh?",
         answer:
-          "REDX provides 3 sets of Open APIs. These are for parcel creation and parcel details, to get delivery access to the latest areas of REDX; and if a shop has multiple pickup locations, then to get those pickup locations during parcel creation. We provide a Sandbox Documentation & token for test purpose. Once the testing is done successfully and confirmed by the merchant, we provide the production or live token using which merchants can start giving us parcels through API.",
+          "Careeh provides 3 sets of Open APIs. These are for parcel creation and parcel details, to get delivery access to the latest areas of Careeh; and if a shop has multiple pickup locations, then to get those pickup locations during parcel creation. We provide a Sandbox Documentation & token for test purpose. Once the testing is done successfully and confirmed by the merchant, we provide the production or live token using which merchants can start giving us parcels through API.",
         id: 2,
       },
       {
         question: "How can I create parcels using API?",
         answer:
-          "You need to integrate REDX Open API to your website or app that you are using, for which you need to follow our API integration process as mentioned in the first question.",
+          "You need to integrate Careeh Open API to your website or app that you are using, for which you need to follow our API integration process as mentioned in the first question.",
         id: 3,
       },
       {
-        question: "How can I receive live status update from REDX API?",
+        question: "How can I receive live status update from Careeh API?",
         answer:
-          "REDX can send near to real-time status update to your system through Webhook Integration. For all of your parcels, status updates will be pushed to your callback API. To avail this feature, kindly contact your key account manager, mentioning your interest in Webhook Integration.",
+          "Careeh can send near to real-time status update to your system through Webhook Integration. For all of your parcels, status updates will be pushed to your callback API. To avail this feature, kindly contact your key account manager, mentioning your interest in Webhook Integration.",
         id: 4,
       },
       {
