@@ -2,14 +2,14 @@ import tick from '../../assets/logo/dot.png'
 
 const PrivacyPolicy = () => {
     return (
-        <div className=" container mx-auto mt-10 mb-20">
+        <div className=" container mx-auto mt-14 mb-40">
             <h1 className="text-4xl md:text-3xl sm:text-2xl font-bold pt-5">Privacy policy</h1>
             <div>
-                <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">1. Introduction</h1>
+                <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-10">1. Introduction</h1>
                 <p className=" leading-loose pt-5">Welcome to REDX!This Privacy Policy was written to help you better understand how we collect, use and store your information. Since technology and privacy laws are always changing, we may occasionally update this policy. If a significant change is made, we will be sure to post a notice on our home page and in the merchant admin. If you continue to use REDX after these changes are posted, you agree tothe revised policy.By signing up for any of the products or services offered by REDX (together, the “Services”), or dealing with a merchant using REDX Services, you are agreeing to the terms of this Privacy Policy and, as applicable, the REDX Terms of Service. This policy is a legally binding agreement between you (and your client, employer or another entity if you are acting on their behalf) as the user ofthe Services (referred to as “you” or “your”) and REDX Inc. (referred to as “we”, “our”, “us” or “REDX”). If we add any new features or tools to our Services, they will also be subject to this policy.We will keep your Personal Information accurate, complete and up-to-date with the information that you provide to us. If you request access to your Personal Information, we will inform you of the existence, use and disclosure of your Personal Information as allowed by law, and provide you access to that information. When we use the term “Personal Information” in this policy, it means any information related to an identifiable individual, but does not include the name, title, business address, or telephone number of an employee of an organization.</p>
             </div>
             <div>
-                <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">2. Information from merchants</h1>
+                <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">2. Information from merchants</h1>
                 <p className=" leading-loose pt-5">Privacy matters! If you are a merchant, you agree to post a privacy policy on your storefront that complies with the laws applicable to your business. You also agree to obtain consent from your customers for the use and access of their Personal Information by REDX and other third parties. What information do we collect from merchants and why?</p>
 
                 <div className="ml-5 mt-3">
@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">3. Information from our merchants’ customers</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">3. Information from our merchants’ customers</h1>
                     <p className="pt-5">What information do we collect and why?</p>
 
                     <div className="ml-5">
@@ -65,7 +65,7 @@ const PrivacyPolicy = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">4. Information from Partners</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">4. Information from Partners</h1>
                     <p className="pt-5">Partners are individuals or businesses that have agreed to the terms of the Partner Program to work with REDX to promote the Services by (a) referring clients to REDX; (b) developing REDX store themes for merchant use; or (c) developing apps using the REDX Application Interface (API) for merchant use. What information do we collect from Partners and why?</p>
 
                     <div className="ml-5">
@@ -101,7 +101,7 @@ const PrivacyPolicy = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">5. Information from REDX visitors and support users. What information do we collect and why?</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">5. Information from REDX visitors and support users. What information do we collect and why?</h1>
                     <p className="pt-5">From REDX website visitors, we collect information about the device and browser you use, your network connection and your IP address.</p>
                     <div className="ml-5">
                         <div className="flex pt-5">
@@ -120,7 +120,7 @@ const PrivacyPolicy = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">6. Information from cookies</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">6. Information from cookies</h1>
                     <p className="pt-5"> What is a cookie? A cookie is a small amount of data, which may include a unique identifier. Cookies are sent to your browser from a website and stored on your device. Every device that accesses our website is assigned a different cookie by us. Why does REDX use cookies?</p>
                     <div className="ml-5">
                         <div className="flex pt-5">
@@ -140,7 +140,7 @@ const PrivacyPolicy = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">7. When and why do we share Personal Information with third parties?</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">7. When and why do we share Personal Information with third parties?</h1>
 
                     <div className="ml-5">
                         <div className="flex pt-5">
@@ -163,12 +163,12 @@ const PrivacyPolicy = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">8. What do we do with your Personal Information when you terminate your relationship with us?</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">8. What do we do with your Personal Information when you terminate your relationship with us?</h1>
                     <p className="pt-5">We will continue to store archived copies of your Personal Information for legitimate business purposes and to comply with the law.·We will continue to store anonymous or anonymized information, such as website visits, without identifiers, in order to improve our Services.</p>
 
                 </div>
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">9. What we don’t do with your Personal Information?</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">9. What we don’t do with your Personal Information?</h1>
                     <div className="ml-5">
                         <div className="flex pt-5">
                             <img src={tick} className='w-6 h-6' alt="" />
@@ -182,7 +182,7 @@ const PrivacyPolicy = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">10. How do we keep your Personal Information secure?</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">10. How do we keep your Personal Information secure?</h1>
                     <div className="ml-5">
                         <div className="flex pt-5">
                             <img src={tick} className='w-6 h-6' alt="" />
@@ -195,7 +195,7 @@ const PrivacyPolicy = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className="text-2xl md:text-xl sm:text-xl font-bold pt-5">11. Access to your personal information</h1>
+                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">11. Access to your personal information</h1>
                     <p className="pt-5">You retain all rights to your Personal Information and can access it anytime. In addition, REDX takes reasonable steps to allow you to correct, amend or delete personal information that is shown to be inaccurate or incomplete.</p>
                 </div>
 
