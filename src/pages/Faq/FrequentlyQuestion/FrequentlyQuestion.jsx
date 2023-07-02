@@ -325,11 +325,11 @@ const FrequentlyQuestion = () => {
                 className={`${answer.qID === questionID ? "block" : "hidden"}`}
                 key={answer.qID}
               >
-                <h2 className="text-3xl pt-3 font-bold">{answer.title}</h2>
+                <h2 className="text-3xl font-bold">{answer.title}</h2>
                 {answer.questions.map((question) => {
                   return (
                     <div className="border-b" key={question.id}>
-                      <h2 className="text-3xl font-bold my-3">
+                      <h2 className="text-3xl font-bold my-5">
                         {question.title}
                       </h2>
                       <div
