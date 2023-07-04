@@ -25,3 +25,7 @@ body {
 .banner-section .swiper-slide{
 background-color: transparent !important;
 }
+.topBtn{
+    height: 60px !important;
+    width: 55px !important;
+}

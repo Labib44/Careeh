@@ -1,6 +1,7 @@
 import { AiOutlineDownload } from "react-icons/ai";
 
 const CoverageAreaTableTop = () => {
+    
     return (
         <div className="pb-5 bg-white flex justify-between sm:flex-col">
             <div className="flex items-center sm:flex-col">
