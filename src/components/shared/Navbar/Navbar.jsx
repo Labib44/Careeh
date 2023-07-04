@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import CustomButton from "../CustomButton/CustomButton";
 import NavItems from "./NavItems/NavItems";
@@ -10,14 +10,41 @@ import logo from "../../../assets/logo/CareehLogo.png";
 
 const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isScrollUp, setIsScrollUp] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      const scrollUp = prevScrollPos > currentScrollPos;
+
+      if (scrollUp) {
+        setIsScrollUp(true);
+      } else {
+        setIsScrollUp(false);
+      }
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
 
   return (
-    <header className="bg-white  z-50">
+    <header
+      className={`z-30 w-full bg-white duration-500 block${
+        isScrollUp && prevScrollPos > 150
+          ? "block fixed top-0 shadow-md duration-500 transition-all"
+          : "hidden duration-500 transition-all"
+      }`}
+    >
       <nav className="container mx-auto relative">
         <div className="flex flex-wrap items-center justify-between">
           {/* Navbar Left */}
           <div className="flex items-center sm:w-full">
-
             <div className="flex justify-between sm:w-full">
               <Link
                 href="/"
@@ -29,7 +56,6 @@ const Navbar = () => {
               </Link>
               <div className="hidden sm:block">
                 <div className="flex items-center justify-end m-5 ">
-
                   <div className=" flex items-center border-l-4 border-r-4 px-5 ">
                     <CiGlobe className="text-gray-400 w-10 h-10 pt-1 sm:w-8 sm:h-8" />
                     <p className=" text-secondary text-xl">EN</p>
@@ -58,7 +84,6 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-
 
             {/* Navbar Center */}
             <div className="md:hidden sm:hidden">
