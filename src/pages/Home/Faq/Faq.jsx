@@ -38,7 +38,7 @@ const Faq = () => {
 
   return (
     <div className="w-[55%] sm:w-full mx-auto text-center my-[80px] static sm:container sm:mx-auto">
-      <h2 className="font-bold text-[40px]">
+      <h2 className="font-bold text-4xl">
         Still have questions? We have answers!
       </h2>
       <p className="mb-10 mt-4">
@@ -56,7 +56,7 @@ const Faq = () => {
               ) : (
                 <FaPlus className="w-7 h-7 p-2 rounded-full text-slate-100 bg-primary my-4" />
               )}
-              <h3 className="font-bold">{question.question}</h3>
+              <h3 className="font-bold text-left">{question.question}</h3>
             </div>
             <div
               className={`${isOpen && question.id === id ? "block" : "hidden"}`}
