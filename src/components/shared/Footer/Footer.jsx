@@ -37,7 +37,7 @@ const Footer = () => {
               to={"/courier"}
               className="text-[#000000a6] text-[16px] font-serif pt-2 hover:underline underline-offset-1"
             >
-              Courier
+             Personal
             </Link>
             <Link
               to={"/enterprise"}

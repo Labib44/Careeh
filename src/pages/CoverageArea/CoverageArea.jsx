@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import CoverageAreaTableBottom from "./CoverageAreaTableBottom";
 import CoverageAreaTableTop from "./CoverageAreaTableTop";
 
 const CoverageArea = () => {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }, []);
+
     return (
         <section>
             <div className="container mx-auto px-24 md:px-10 sm:px-5 pb-[120px] sm:pb-[56px] md:pb-[90px]">
@@ -108,7 +116,7 @@ const CoverageArea = () => {
                         </tbody>
                     </table>
                 </div>
-                <CoverageAreaTableBottom/>
+                <CoverageAreaTableBottom />
             </div>
         </section>
     );
