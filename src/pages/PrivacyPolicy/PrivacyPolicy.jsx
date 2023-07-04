@@ -53,7 +53,9 @@ const PrivacyPolicy = () => {
 
         <div className="ml-5 mt-3">
           <div className="flex pt-5">
-            <img src={tick} className="w-6 h-6" alt="" />
+            <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
             <p>
               <b>Website Usage Data:</b> We gather data on the Careeh-hosted
               webpages you visit, as well as how and when you access your
@@ -64,7 +66,9 @@ const PrivacyPolicy = () => {
             </p>
           </div>
           <div className="flex pt-5">
-            <img src={tick} className="w-6 h-6" alt="" />
+            <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
             <p>
               <b>Customer Information:</b> We collect Personal Information about
               your customers that you share with us or that customers provide
@@ -74,7 +78,9 @@ const PrivacyPolicy = () => {
             </p>
           </div>
           <div className="flex pt-5">
-            <img src={tick} className="w-6 h-6" alt="" />
+            <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
             <p>
               <b>Express Permission:</b> We may also use Personal Information in
               other instances where you have expressly granted us permission to
@@ -97,7 +103,9 @@ const PrivacyPolicy = () => {
 
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 We collect various pieces of information from our merchants'
                 customers, including their names, email addresses, shipping and
@@ -106,7 +114,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 We require this information to effectively provide our Services
                 to merchants. It enables us to support and process orders,
@@ -120,7 +130,9 @@ const PrivacyPolicy = () => {
           <p className="pt-5">When do we collect this information?</p>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 We collect this information when a merchant's customer utilizes
                 or accesses our Services. For instance, it may occur when a
@@ -137,7 +149,9 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Personal Information:</b> We collect the following details
                 from our Partners: name, company name, website, social media
@@ -146,7 +160,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Purpose:</b> This information is necessary to collaborate
                 with our Partners effectively, verify their identity, facilitate
@@ -154,7 +170,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Website Usage Data:</b> We gather data on the Careeh-hosted
                 webpages visited by our Partners, as well as their access
@@ -165,7 +183,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Customer Information:</b>We collect Personal Information
                 about the customers of our Partners, either shared by the
@@ -173,7 +193,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Purpose:</b>This customer information is essential for
                 working closely with Partners and delivering our Services to
@@ -181,7 +203,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Express Permission:</b> In certain cases where explicit
                 permission is granted, we may utilize Personal Information for
@@ -197,7 +221,9 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 From Careeh website visitors, we collect information about the
                 device and browser used, network connection details, and IP
@@ -205,14 +231,18 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 From telephone support users, we collect their phone numbers and
                 call audio.
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 From chat support users, we collect their names, email
                 addresses, information about the device and browser used,
@@ -220,14 +250,18 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 From forum users, we collect their names, email addresses, and
                 website URL.
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 We collect this information to effectively manage and support
                 user accounts, enhance our Services, and address any inquiries
@@ -238,7 +272,9 @@ const PrivacyPolicy = () => {
           <p className="pt-5">When do we collect this information?</p>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 We collect this information when individuals visit Careeh-hosted
                 pages or interact with us via email, web forms, instant
@@ -265,7 +301,9 @@ const PrivacyPolicy = () => {
           <p className="pt-5 font-bold">Why does Careeh use cookies?</p>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Personalized Experience:</b> We utilize cookies to recognize
                 your device and provide you with a tailored and personalized
@@ -273,7 +311,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Customized Ads:</b> Cookies are also employed to serve
                 customized advertisements from Google and other third-party
@@ -300,7 +340,9 @@ const PrivacyPolicy = () => {
 
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Preventing and Investigating:</b> We may share Personal
                 Information with third parties to prevent, investigate, or take
@@ -311,7 +353,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 <b>Business Transactions:</b> In the event of a merger,
                 acquisition, bankruptcy, dissolution, reorganization, or any
@@ -348,7 +392,9 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 We want to assure you that we do not and will never share,
                 disclose, sell, rent, or provide your Personal Information to
@@ -357,7 +403,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 Furthermore, we do not utilize the Personal Information we
                 collect from you or your customers to directly contact them for
@@ -375,7 +423,9 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="ml-5">
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 To ensure the security of your Personal Information, we adhere
                 to industry standards for information security management. This
@@ -388,7 +438,9 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex pt-5">
-              <img src={tick} className="w-6 h-6" alt="" />
+              <div className="mr-4 ml-1">
+              <span className="w-[9px] h-[9px] rounded-full bg-primary inline-block"></span>
+            </div>
               <p>
                 No method of transmission over the Internet or system of
                 electronic storage is 100% secure, despite the fact that we take
@@ -404,7 +456,10 @@ const PrivacyPolicy = () => {
             11. Access to your personal information:
           </h1>
           <p className="pt-5">
-          You retain full rights to your Personal Information and have the ability to access it at any time. Careeh also takes reasonable steps to enable you to correct, amend, or delete any personal information that is found to be inaccurate or incomplete.
+            You retain full rights to your Personal Information and have the
+            ability to access it at any time. Careeh also takes reasonable steps
+            to enable you to correct, amend, or delete any personal information
+            that is found to be inaccurate or incomplete.
           </p>
         </div>
       </div>
