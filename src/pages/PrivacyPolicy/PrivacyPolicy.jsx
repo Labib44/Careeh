@@ -388,7 +388,7 @@ const PrivacyPolicy = () => {
         </div>
         <div>
           <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
-            9. What we don't do with your Personal Information?
+            9. What we avoid doing with your personal information?
           </h1>
           <div className="ml-5">
             <div className="flex pt-5">
@@ -419,7 +419,7 @@ const PrivacyPolicy = () => {
         </div>
         <div>
           <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
-            10. How do we keep your Personal Information secure?
+            10. How do we ensure the security of your private data?
           </h1>
           <div className="ml-5">
             <div className="flex pt-5">
