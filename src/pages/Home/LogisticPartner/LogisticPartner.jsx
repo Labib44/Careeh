@@ -8,37 +8,39 @@ import secureHandling from "../../../assets/home/logistic-partner/secure-handlin
 const LogisticPartner = () => {
   const logistics = [
     {
-      title: "Industry-leading tech",
+      title: "Diverse vehicle fleet",
       description:
-        "With a brilliant team of engineers driving everything we do, Careeh offers the best possible service experience powered by superior technology",
+        "Outsource deliveries, and skip fleet management hassle. Pay for required services only.",
       icon: fastDelivery,
     },
     {
-      title: "Nationwide coverage",
+      title: "Optimal freight solutions",
       description:
-        "Careeh offers the widest logistics network, covering 64 districts and 490+ sub districts across Bangladesh",
+        "Choose the best freight option, whether it's full truckload or less, based on your specific needs.",
       icon: dropPickupDelivery,
     },
     {
-      title: "Fastest solutions",
+      title: "Swift & adaptable delivery",
       description:
-        "Backed by an agile team and dynamic operations, we promise to find the fastest solutions for your needs",
+        "We offer on-demand, same-day, and advanced order services, ensuring a fast and flexible delivery experience.",
       icon: smsUpdate,
     },
     {
-      title: "Next day payment",
+      title: "Real-time order tracking",
       description:
-        "Once the delivery is complete you will receive payment the very next day.",
+        "Stay informed with in-app tracking, allowing you and the recipient to monitor the delivery progress in real-time.",
       icon: nextDayPayement,
     },
     {
-      title: "Best COD rates",
-      description: "COD charge inside Dhaka 0%, outside Dhaka 1%.",
+      title: "Convenient monthly invoicing",
+      description:
+        "Enjoy hassle-free payment terms with our monthly invoicing system.",
       icon: bestRates,
     },
     {
       title: "Secure handling",
-      description: "Compensation policy guarantees safety of your shipment",
+      description:
+        "Rest assured, our compensation policy guarantees the safe handling of your shipment.",
       icon: secureHandling,
     },
   ];

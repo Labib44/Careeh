@@ -18,24 +18,27 @@ const SuccessStory = () => {
             Merchant Success Story
           </h1>
           <p className="text-secondary font-bold mt-10  sm:mt-0 sm:px-5 md:px-5">
-            <span className="text-primary">Careeh</span> is an important partner of our distribution
+            <span className="text-primary">Careeh</span> is an important partner
+            of our distribution
           </p>
 
-          <h1 className="text-secondary mt-10 sm:mt-0 text-[16px] sm:px-5 md:px-5 sm:pt-3">
-            <span className="text-primary">Careeh</span>, a popular name in the field of logistics and distribution
-            management, has been partnering with Rangs for about a couple of
-            months now! It’s been so far so good with the journey, and <span className="text-primary">Careeh</span> has
-            become an important part of Rangs distribution and delivery metrics
-            in no time. We look forward to creating a long-term and successful
-            business relationship with <span className="text-primary">Careeh</span>.
+          <h1 className="text-secondary mt-10 sm:mt-0 text-[16px] sm:px-5 md:px-5 sm:pt-3 text-justify">
+            <span className="text-primary">Careeh,</span> a renowned logistics
+            and distribution management company, has been a valuable partner for
+            Rangs for the past couple of months. Our journey together has been
+            excellent, and <span className="text-primary">Careeh.</span> quickly
+            became an integral part of Rangs' distribution and delivery
+            operations. We are excited about the prospects of establishing a
+            long-term and mutually beneficial business relationship with{" "}
+            <span className="text-primary">Careeh.</span>
           </h1>
 
           <h1 className="text-secondary font-bold mt-10 sm:mt-0 sm:px-5 md:px-5 sm:pt-3">
-          Ibnul Kais Aryan
+            Ibnul Kais Aryan
           </h1>
 
           <p className="text-secondary sm:px-5 md:px-5 ">
-          CEO || Careeh Limited
+            CEO || <span className="text-primary">Careeh Limited</span>.
           </p>
         </div>
       </div>

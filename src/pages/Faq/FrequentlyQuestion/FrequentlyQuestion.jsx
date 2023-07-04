@@ -43,7 +43,7 @@ const answers = [
       {
         question: "How do I contact you?",
         answer:
-          "You can call us at 09610007339 or you can email us at contact@Careeh.com.bd. Additionally you can also reach out to us over live chat from our app or from our web portal. You can also connect with us on Facebook.",
+          "You can call us at 09678844448 or you can email us at info@careeh.com. Additionally you can also reach out to us over live chat from our app or from our web portal. You can also connect with us on Facebook.",
         id: 2,
       },
       {
@@ -55,20 +55,20 @@ const answers = [
       {
         question: "How do I send a product/ courier via Careeh Delivery?",
         answer:
-          "We do home delivery for products and parcels of multiple sizes and weights all over Bangladesh. To avail our services, please register with us on our website here, or download the Careeh app from Google Play Store. You can also contact us at 09610007339.Click this link to know about how to create a Careeh account. To learn how to send a parcel through Careeh, please visit this link.",
+          "We do home delivery for products and parcels of multiple sizes and weights all over Bangladesh. To avail our services, please register with us on our website here, or download the Careeh app from Google Play Store. You can also contact us at 09678844448.Click this link to know about how to create a Careeh account. To learn how to send a parcel through Careeh, please visit this link.",
         id: 4,
       },
       {
         question:
           "I want to hold a parcel for more than 3 days before home delivery. Is it possible?",
         answer:
-          "Currently we do not hold any parcel for more than 3 days once a parcel reaches its last mile hub. For more information call us at 09610007339.",
+          "Currently we do not hold any parcel for more than 3 days once a parcel reaches its last mile hub. For more information call us at 09678844448.",
         id: 5,
       },
       {
         question: "Can you do product exchange from customers?",
         answer:
-          "To see the video tutorial on how to exchange a parcel, please click this link. To read about the steps in details, visit link. For more information please contact us at 09610007339 or email at contact@Careeh.com.bd.",
+          "To see the video tutorial on how to exchange a parcel, please click this link. To read about the steps in details, visit link. For more information please contact us at 09678844448 or email at info@careeh.com.",
         id: 6,
       },
       {
@@ -102,7 +102,7 @@ const answers = [
         question:
           "Currently What’s the procedure to book a cargo for my shipment?",
         answer:
-          "Simply call us & let us know your requirements in detail. We’ll get back to you with the vehicle confirmation & pricing within the next 120 minutes. If you agree, we’ll simply deploy our cargo to report to your loading point within the next 60 minutes.For prefixed requirements, simply drop a mail to cargo@Careeh.com.bd & we’ll get back to you as early as possible.",
+          "Simply call us & let us know your requirements in detail. We’ll get back to you with the vehicle confirmation & pricing within the next 120 minutes. If you agree, we’ll simply deploy our cargo to report to your loading point within the next 60 minutes.For prefixed requirements, simply drop a mail to info@careeh.com & we’ll get back to you as early as possible.",
         id: 11,
       },
     ],
@@ -236,7 +236,7 @@ const answers = [
       {
         question: "Do you pick up parcels from outside Dhaka?",
         answer:
-          "We are not a parcel delivery service in Dhaka only, our home delivery courier service in Bangladesh extends to all 64 districts. We pick up parcels from all over Bangladesh. To know more please call us at 09610007339.",
+          "We are not a parcel delivery service in Dhaka only, our home delivery courier service in Bangladesh extends to all 64 districts. We pick up parcels from all over Bangladesh. To know more please call us at 09678844448.",
         id: 6,
       },
       {

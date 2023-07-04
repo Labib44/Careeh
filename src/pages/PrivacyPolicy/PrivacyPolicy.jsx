@@ -1,208 +1,415 @@
-import tick from '../../assets/logo/dot.png'
+import tick from "../../assets/logo/dot.png";
 
 const PrivacyPolicy = () => {
-    return (
-        <div className=" container mx-auto mt-14 mb-40">
-            <h1 className="text-4xl md:text-3xl sm:text-2xl font-bold pt-5">Privacy policy</h1>
-            <div>
-                <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-10">1. Introduction</h1>
-                <p className=" leading-loose pt-5">Welcome to REDX!This Privacy Policy was written to help you better understand how we collect, use and store your information. Since technology and privacy laws are always changing, we may occasionally update this policy. If a significant change is made, we will be sure to post a notice on our home page and in the merchant admin. If you continue to use REDX after these changes are posted, you agree tothe revised policy.By signing up for any of the products or services offered by REDX (together, the “Services”), or dealing with a merchant using REDX Services, you are agreeing to the terms of this Privacy Policy and, as applicable, the REDX Terms of Service. This policy is a legally binding agreement between you (and your client, employer or another entity if you are acting on their behalf) as the user ofthe Services (referred to as “you” or “your”) and REDX Inc. (referred to as “we”, “our”, “us” or “REDX”). If we add any new features or tools to our Services, they will also be subject to this policy.We will keep your Personal Information accurate, complete and up-to-date with the information that you provide to us. If you request access to your Personal Information, we will inform you of the existence, use and disclosure of your Personal Information as allowed by law, and provide you access to that information. When we use the term “Personal Information” in this policy, it means any information related to an identifiable individual, but does not include the name, title, business address, or telephone number of an employee of an organization.</p>
-            </div>
-            <div>
-                <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">2. Information from merchants</h1>
-                <p className=" leading-loose pt-5">Privacy matters! If you are a merchant, you agree to post a privacy policy on your storefront that complies with the laws applicable to your business. You also agree to obtain consent from your customers for the use and access of their Personal Information by REDX and other third parties. What information do we collect from merchants and why?</p>
+  return (
+    <div className=" container mx-auto mt-14 mb-40">
+      <h1 className="text-4xl md:text-3xl sm:text-2xl font-bold pt-5">
+        Privacy policy
+      </h1>
+      <div>
+        <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-10">
+          1. Introduction
+        </h1>
+        <p className=" leading-loose pt-5">
+          Welcome to Careeh! This Privacy Policy has been crafted to provide you
+          with a clear understanding of how we collect, utilize, and store your
+          information. As technology and privacy laws are subject to change, we
+          may periodically update this policy. In the event of significant
+          changes, we will notify you through our home page and merchant admin.
+          By continuing to use Careeh after these changes are posted, you are
+          indicating your acceptance of the revised policy. By signing up for
+          any of the Services offered by Careeh, or engaging with a merchant
+          using Careeh Services, you are agreeing to the terms outlined in this
+          Privacy Policy, along with the Careeh Terms of Service, where
+          applicable. This policy constitutes a legally binding agreement
+          between you (and, if applicable, your client, employer, or another
+          entity acting on your behalf) as the user of the Services (referred to
+          as "you" or "your") and Careeh Inc. (referred to as "we," "our," "us,"
+          or "Careeh"). This policy will also apply to any additional functions
+          or resources that are included in our Services. We are committed to
+          maintaining the accuracy, completeness, and currency of your Personal
+          Information based on the details you provide to us. If you request
+          access to your Personal Information, we will inform you about the
+          existence, use, and disclosure of such information as permitted by
+          law, and grant you access to that data. When we mention "Personal
+          Information" in this policy, we refer to any information related to an
+          identifiable individual, excluding the name, title, business address,
+          or telephone number of an employee within an organization.
+        </p>
+      </div>
+      <div>
+        <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+          2. Information from merchants
+        </h1>
+        <p className=" leading-loose pt-5">
+          We recognize the importance of privacy! As a merchant, you are
+          required to display a privacy policy on your storefront that complies
+          with the relevant laws applicable to your business. Moreover, you
+          agree to seek consent from your customers for the use and access of
+          their Personal Information by Careeh and other third parties. Here's
+          an outline of the information we collect from merchants and the
+          reasons behind it:
+        </p>
 
-                <div className="ml-5 mt-3">
-                    <div className="flex pt-5">
-                        <img src={tick} className='w-6 h-6' alt="" />
-                        <p>We collect your name, company name, address, email address, phone number(s) and credit card details.oWe need this information to provide you with our Services, for example, to confirm your identity, contact you, and invoice you</p>
-                    </div>
-                    <div className="flex pt-5">
-                        <img src={tick} className='w-6 h-6' alt="" />
-                        <p>We collect data about the REDX -hosted webpages that you visit and how and when you access your account, including information about the device and browser you use, your network connection and your IP address.oWe need this information to give you access to and improve our Services.</p>
-                    </div>
-                    <div className="flex pt-5">
-                        <img src={tick} className='w-6 h-6' alt="" />
-                        <p>We collect Personal Information about your customers that you share with us orthat customers provide while shopping or during checkout.</p>
-                    </div>
-                    <div className="flex pt-5">
-                        <img src={tick} className='w-6 h-6' alt="" />
-                        <p>We use this information to provide you with our Services and so that you canprocess orders and better serve your customers.</p>
-                    </div>
-                    <div className="flex pt-5">
-                        <img src={tick} className='w-6 h-6' alt="" />
-                        <p>We will also use Personal Information in other cases where you have given us your express permission. When do we collect this information?</p>
-                    </div>
-                    <div className="flex pt-5">
-                        <img src={tick} className='w-6 h-6' alt="" />
-                        <p>We collect Personal Information when you sign up for our Services, when you access our Services or otherwise provide us with the information.</p>
-                    </div>
-
-                </div>
-
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">3. Information from our merchants’ customers</h1>
-                    <p className="pt-5">What information do we collect and why?</p>
-
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We collect our merchants’ customers’ name, email, shipping and billing address, payment details, company name, phone number, IP address and devicedata.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We need this information to provide merchants with our Services, including supporting and processing orders, authentication, and processing payments. This information is also used to improve our Services.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>When do we collect this information?</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>Information is collected when a merchant’s customer uses or accesses our Services, such as when a customer visits a merchant’s site, places an order or signs up for an account on a merchant’s site.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">4. Information from Partners</h1>
-                    <p className="pt-5">Partners are individuals or businesses that have agreed to the terms of the Partner Program to work with REDX to promote the Services by (a) referring clients to REDX; (b) developing REDX store themes for merchant use; or (c) developing apps using the REDX Application Interface (API) for merchant use. What information do we collect from Partners and why?</p>
-
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We collect your name, company name, website, twitter or other social media handles, phone number(s), address, business type, and email address.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We use this information to work with you, confirm your identity, contact you,and pay you.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We collect data about the REDX -hosted webpages that you visit and how and when you access your account, including information about the device and browser you use, your network connection and your IP address.oWe use this information to give you access to and improve our Services.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We collect Personal Information about your customers that you share with us orthat they provide to us directly.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We use this information to work with you and to provide our Services to yourcustomers.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We will also use Personal Information in other cases where you have given us express permission. When do we collect this information?</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We collect this information when you sign up for a Partner Account, when you sign up one of your customers for our Services, or when your customers sign up themselves. We also collect any additional information that you might provide to us.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">5. Information from REDX visitors and support users. What information do we collect and why?</h1>
-                    <p className="pt-5">From REDX website visitors, we collect information about the device and browser you use, your network connection and your IP address.</p>
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>From telephone support users, we collect your phone number and call audio.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>From chat support users, we collect your name, email address, information about the device and browser you use, your network connection and your IP address.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>From forum users, we collect your name, email address and website URL. We use this information to service your account, enhance our Services, and answer any questions you may have. When do we collect this information?·We collect this information when you visit REDX -hosted pages or engage with us either by email, web form, instant message, phone, or post content on our website (including forums & blogs). We also collect any additional information that you might provide to us.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">6. Information from cookies</h1>
-                    <p className="pt-5"> What is a cookie? A cookie is a small amount of data, which may include a unique identifier. Cookies are sent to your browser from a website and stored on your device. Every device that accesses our website is assigned a different cookie by us. Why does REDX use cookies?</p>
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We use cookies to recognize your device and provide you with a personalized experience</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We also use cookies to serve customized ads from Google and other third-partyvendors.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>Our third-party advertisers use cookies to track your prior visits to our website and elsewhere on the Internet in order to serve you customized ads.</p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">7. When and why do we share Personal Information with third parties?</h1>
-
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>REDX works with third parties to help provide you with our Services and we may share Personal Information with them to support these efforts. In certain limited circumstances, we may also be required by law to share information withthird parties.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>Personal information may be shared with third parties to prevent, investigate, or take action regarding illegal activities, suspected fraud, situationsinvolving potential threats to the physical safety of any person, violations of our Terms of Service or any other agreement related to the Services, or as otherwiserequired by law.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>Personal information may also be shared with a company that acquires our business, whether through merger, acquisition, bankruptcy, dissolution, reorganization, or other similar transaction or proceeding. If this happens, we will post a notice on our home page.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>Except when required by law, REDX will never disclose your Personal Information without obtaining your consent.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">8. What do we do with your Personal Information when you terminate your relationship with us?</h1>
-                    <p className="pt-5">We will continue to store archived copies of your Personal Information for legitimate business purposes and to comply with the law.·We will continue to store anonymous or anonymized information, such as website visits, without identifiers, in order to improve our Services.</p>
-
-                </div>
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">9. What we don’t do with your Personal Information?</h1>
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We do not and willnevershare, disclose, sell, rent, or otherwise provide Personal Information to other companies for the marketing of their own productsor services.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We do not use the Personal Information we collect from you or your customers to contact or market to your customers or directly compete with you. However, REDX may contact or market to your customers if we obtain their information from another source, such as from the customers themselves.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">10. How do we keep your Personal Information secure?</h1>
-                    <div className="ml-5">
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>We follow industry standards on information security management to safeguard sensitive information, such as financial information, intellectual property, employee details and any other Personal Information entrusted to us. Our information security systems apply to people, processes and information technology systems on a risk management basis.</p>
-                        </div>
-                        <div className="flex pt-5">
-                            <img src={tick} className='w-6 h-6' alt="" />
-                            <p>No method of transmission over the Internet, or method of electronic storage, is 100% secure. Therefore, we cannot guarantee the absolute security of your Personal Information</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">11. Access to your personal information</h1>
-                    <p className="pt-5">You retain all rights to your Personal Information and can access it anytime. In addition, REDX takes reasonable steps to allow you to correct, amend or delete personal information that is shown to be inaccurate or incomplete.</p>
-                </div>
-
-
-            </div>
+        <div className="ml-5 mt-3">
+          <div className="flex pt-5">
+            <img src={tick} className="w-6 h-6" alt="" />
+            <p>
+              <b>Website Usage Data:</b> We gather data on the Careeh-hosted
+              webpages you visit, as well as how and when you access your
+              account. This includes information about the device and browser
+              you use, your network connection, and your IP address. This data
+              is necessary to grant you access to our Services and enhance their
+              functionality.
+            </p>
+          </div>
+          <div className="flex pt-5">
+            <img src={tick} className="w-6 h-6" alt="" />
+            <p>
+              <b>Customer Information:</b> We collect Personal Information about
+              your customers that you share with us or that customers provide
+              while shopping or during the checkout process. We utilize this
+              information to deliver our Services effectively and assist you in
+              processing orders to provide better customer service.
+            </p>
+          </div>
+          <div className="flex pt-5">
+            <img src={tick} className="w-6 h-6" alt="" />
+            <p>
+              <b>Express Permission:</b> We may also use Personal Information in
+              other instances where you have expressly granted us permission to
+              do so.
+            </p>
+          </div>
         </div>
-    );
+
+        <p className=" leading-loose pt-5">
+          The collection of this information occurs when you sign up for our
+          Services, access our Services, or provide us with the information
+          through other means.
+        </p>
+
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            3. Information from our merchants’ customers
+          </h1>
+          <p className="pt-5">What information do we collect and why?</p>
+
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                We collect various pieces of information from our merchants'
+                customers, including their names, email addresses, shipping and
+                billing address, payment details, company name, phone numbers,
+                IP addresses, and device data.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                We require this information to effectively provide our Services
+                to merchants. It enables us to support and process orders,
+                verify the authenticity of transactions, and handle payment
+                processing. Additionally, this information plays a crucial role
+                in enhancing and improving the overall functionality of our
+                Services.
+              </p>
+            </div>
+          </div>
+          <p className="pt-5">When do we collect this information?</p>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                We collect this information when a merchant's customer utilizes
+                or accesses our Services. For instance, it may occur when a
+                customer visits a merchant's website, places an order, or
+                creates an account on the merchant's site.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            4. What details do we collect from Partners, and why?
+          </h1>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Personal Information:</b> We collect the following details
+                from our Partners: name, company name, website, social media
+                handles (such as Twitter), phone number(s), address, business
+                type, and email address.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Purpose:</b> This information is necessary to collaborate
+                with our Partners effectively, verify their identity, facilitate
+                communication, and process payments for the services rendered.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Website Usage Data:</b> We gather data on the Careeh-hosted
+                webpages visited by our Partners, as well as their access
+                patterns, including device and browser information, network
+                connection details, and IP address. This data enables us to
+                provide access to our Services and continually improve their
+                functionality.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Customer Information:</b>We collect Personal Information
+                about the customers of our Partners, either shared by the
+                Partners themselves or directly provided by the customers.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Purpose:</b>This customer information is essential for
+                working closely with Partners and delivering our Services to
+                their customers effectively.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Express Permission:</b> In certain cases where explicit
+                permission is granted, we may utilize Personal Information for
+                specific purposes as agreed upon.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            5. Information from Careeh visitors and support users
+          </h1>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                From Careeh website visitors, we collect information about the
+                device and browser used, network connection details, and IP
+                address.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                From telephone support users, we collect their phone numbers and
+                call audio.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                From chat support users, we collect their names, email
+                addresses, information about the device and browser used,
+                network connection details, and IP addresses.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                From forum users, we collect their names, email addresses, and
+                website URL.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                We collect this information to effectively manage and support
+                user accounts, enhance our Services, and address any inquiries
+                or concerns users may have.
+              </p>
+            </div>
+          </div>
+          <p className="pt-5">When do we collect this information?</p>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                We collect this information when individuals visit Careeh-hosted
+                pages or interact with us via email, web forms, instant
+                messages, phone calls, or when they post content on our website
+                (including forums and blogs). Additionally, we may collect any
+                additional information provided by users during these
+                interactions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            6. Information from cookies:
+          </h1>
+          <p className="pt-5">
+            <b>What is a cookie?</b>
+            <br />A cookie is a small data file, typically containing a unique
+            identifier. When you visit a website, this file is sent to your
+            browser and stored on your device. Each device accessing our website
+            is assigned a distinct cookie by us.
+          </p>
+          <p className="pt-5 font-bold">Why does Careeh use cookies?</p>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Personalized Experience:</b> We utilize cookies to recognize
+                your device and provide you with a tailored and personalized
+                browsing experience.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Customized Ads:</b> Cookies are also employed to serve
+                customized advertisements from Google and other third-party
+                vendors.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            7. When and why do we give third parties access to Personal
+            Information?
+          </h1>
+
+          <p className="pt-5">
+            Careeh collaborates with third parties to ensure the provision of
+            our Services, and in support of these efforts, we may share Personal
+            Information with them. Additionally, there may be specific instances
+            where we are legally obligated to share information with third
+            parties. Personal Information may be shared with third parties under
+            the following circumstances:
+          </p>
+
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Preventing and Investigating:</b> We may share Personal
+                Information with third parties to prevent, investigate, or take
+                action against illegal activities, suspected fraud, potential
+                threats to the physical safety of individuals, violations of our
+                Terms of Service, or any other agreements related to our
+                Services, or as otherwise mandated by law.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                <b>Business Transactions:</b> In the event of a merger,
+                acquisition, bankruptcy, dissolution, reorganization, or any
+                similar transaction or proceeding involving the transfer of our
+                business, Personal Information may be shared with the acquiring
+                company. If such a situation arises, we will post a notice on
+                our home page to inform you.
+              </p>
+            </div>
+          </div>
+          <p className="pt-5">
+            It is important to note that except when required by law, Careeh
+            will never disclose your Personal Information without obtaining your
+            consent.
+          </p>
+        </div>
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            8. What happens to your Personal Information if you end your
+            engagement with us?
+          </h1>
+          <p className="pt-5">
+            Upon termination of your relationship with us, we will retain
+            archived copies of your Personal Information for legitimate business
+            purposes and to fulfill our legal obligations. Additionally, we may
+            store anonymous or anonymized information, such as website visits
+            without any identifying markers, to enhance and improve our
+            Services.
+          </p>
+        </div>
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            9. What we don't do with your Personal Information?
+          </h1>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                We want to assure you that we do not and will never share,
+                disclose, sell, rent, or provide your Personal Information to
+                other companies for the purpose of marketing their own products
+                or services.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                Furthermore, we do not utilize the Personal Information we
+                collect from you or your customers to directly contact them for
+                marketing purposes or to compete with your business. However,
+                please note that Careeh may contact or market to your customers
+                if we obtain their information from an alternative source, such
+                as directly from the customers themselves.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            10. How do we keep your Personal Information secure?
+          </h1>
+          <div className="ml-5">
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                To ensure the security of your Personal Information, we adhere
+                to industry standards for information security management. This
+                includes implementing measures to protect sensitive data such as
+                financial information, intellectual property, employee details,
+                and any other Personal Information entrusted to us. Our approach
+                to information security covers people, processes, and
+                information technology systems, based on a risk management
+                approach.
+              </p>
+            </div>
+            <div className="flex pt-5">
+              <img src={tick} className="w-6 h-6" alt="" />
+              <p>
+                No method of transmission over the Internet or system of
+                electronic storage is 100% secure, despite the fact that we take
+                several security measures to safeguard your Personal
+                Information. Therefore, we cannot provide absolute assurance
+                regarding the security of your Personal Information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 className="text-[20px] md:text-xl sm:text-xl font-bold pt-5">
+            11. Access to your personal information:
+          </h1>
+          <p className="pt-5">
+          You retain full rights to your Personal Information and have the ability to access it at any time. Careeh also takes reasonable steps to enable you to correct, amend, or delete any personal information that is found to be inaccurate or incomplete.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default PrivacyPolicy;
