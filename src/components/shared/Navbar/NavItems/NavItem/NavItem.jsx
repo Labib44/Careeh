@@ -19,7 +19,7 @@ const NavItem = ({
                     activePathName === pathName
                         ? "text-gray-400"
                         : "text-secoundry"
-                }  transition-all ml-5 hover:border-b-4 border-red-600 p-5 font-medium `}
+                }  transition-all ml-5 hover:border-b-4 border-primary p-5 font-medium `}
             >
                 {navItemName}
             </Link>
